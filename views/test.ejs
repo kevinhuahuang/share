@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="./javascripts/main_page.js"></script>
+  </head>
+  <body onload="initMainPage()">
+  <div id="main_curtain" >
+    <div id="navigator_curtain">
+      <div id="navigator_option">
+        <span id="navigator_option_down" class="navigator_option_item">
+          <label id="navigator_option_label_down">Down</label>
+        </span>
+        <span id="navigator_option_up" class="navigator_option_item">
+          <label id="navigator_option_label_up">Up</label>
+        </span>
+        <span id="navigator_option_mine" class="navigator_option_item">
+          <label id="navigator_option_label_mine">Mine</label>
+        </span>
+      </div>
+      <div id="navigator_content">
+          <% for(var i=1; i<=2; i++) { %>
+        <div id=<%= "navigator_item" + i%> class="navigator_item" style="position:absolute; top:<%=(i-1)*5%>%">
+          <span id=<%= "navigator_item_name" + i%> class="navigator_item_name">迪声音响</span>
+          <div id=<%= "navigator_item_status" + i%> class="navigator_item_status">
+            <span id=<%= "navigator_item_status_first" + i%> class="navigator_item_status_sub navigator_item_status_sub_first"></span>
+            <span id=<%= "navigator_item_status_second" + i%> class="navigator_item_status_sub navigator_item_status_sub_second"></span>
+            <span id=<%= "navigator_item_status_third" + i%> class="navigator_item_status_sub navigator_item_status_sub_third"></span>
+            <span id=<%= "navigator_item_status_fourth" + i%> class="navigator_item_status_sub navigator_item_status_sub_fourth"></span>
+            <span id=<%= "navigator_item_status_fifth" + i%> class="navigator_item_status_sub navigator_item_status_sub_fifth"></span>
+          </div>
+        </div>
+          <%} %>
+      </div>
+
+    </div>
+    <div id="data_display_curtain">
+
+    </div>
+    <div id="data_condition_curtain">
+
+    </div>
+  </div>
+
+  </body>
+</html>

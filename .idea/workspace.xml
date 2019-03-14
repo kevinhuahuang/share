@@ -57,56 +57,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="resume.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/resume.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state>
+              <caret column="511" selection-start-column="511" selection-end-column="511" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="television.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/television.js">
+      <file leaf-file-name="app.5d5610655c8b093c5734.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/others/app.5d5610655c8b093c5734.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="190">
+              <caret column="1386" lean-forward="true" selection-start-column="1386" selection-end-column="1386" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.474926442b5c8ed91d6f.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/main.474926442b5c8ed91d6f.js">
+      <file leaf-file-name="app.62c271b29c2c1f4fbb6302d8d5ded471.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/guide/app.62c271b29c2c1f4fbb6302d8d5ded471.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.2ae2e69a05c33dfc65f8.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/axon02/manifest.2ae2e69a05c33dfc65f8.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret column="22569" selection-start-column="22569" selection-end-column="22569" />
+            <state relative-caret-position="19">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="others.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/others.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="others.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/others.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="150" selection-start-column="150" selection-end-column="150" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.f7db9bb147e095ae4d45.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/guide/app.f7db9bb147e095ae4d45.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-95">
+              <caret column="5124" selection-start-column="5124" selection-end-column="5124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.13709f8cd1e799c8be34.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/resume/app.13709f8cd1e799c8be34.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="vendor.92a434c973eefec2db1a.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/guide/vendor.92a434c973eefec2db1a.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="guide.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/guide.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="130" selection-start-column="130" selection-end-column="130" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cellphone.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/cellphone.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <caret column="488" selection-start-column="488" selection-end-column="488" />
             </state>
           </provider>
         </entry>
@@ -127,48 +147,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.csv</find>
-      <find>.get</find>
-      <find>http</find>
-      <find>readFile</find>
-      <find>writeFile</find>
-      <find>csv</find>
-      <find>waterfall</find>
-      <find>waterfallDay2</find>
-      <find>exchangeFourYearRateTop800</find>
-      <find>../public/json/main/content.json</find>
-      <find>../public/json/commodity.json</find>
-      <find>http://www.mi.com/</find>
-      <find>topBa</find>
-      <find>//www.mi.com/index.html</find>
-      <find>href:&quot;https://www.miui.com/&quot;</find>
-      <find>href:&quot;millet&quot;</find>
-      <find>{attrs:{href:&quot;/millet&quot;,target:&quot;_blank&quot;}},[t._v(&quot;MIUI&quot;)])</find>
-      <find>{href:&quot;https://i.mi.com/&quot;,target:&quot;_blank&quot;}}</find>
-      <find>{href:&quot;https://jr.mi.com?from=micom&quot;,target:&quot;_blank&quot;}}</find>
-      <find>{href:&quot;https://youpin.mi.com/&quot;,target:&quot;_blank&quot;}}</find>
-      <find>{href:&quot;https://shuidi.mi.com/&quot;,target:&quot;_blank&quot;}}</find>
-      <find>{href:&quot;https://b.mi.com/?client_id=180100031058&amp;masid=17409.0358&quot;,target:&quot;_blank&quot;}}</find>
-      <find>{href:&quot;//order.mi.com/site/login&quot;,&quot;data-needlogin&quot;:&quot;true&quot;}}</find>
       <find>{href:&quot;https://account.xiaomi.com/pass/register&quot;}}</find>
       <find>{href:&quot;//order.mi.com/site/login&quot;}}</find>
       <find>{href:&quot;https://iot.mi.com/index.html&quot;}}</find>
       <find>返回小米商城</find>
-      <find>href:&quot;//www.mi.com/index.html&quot;</find>
       <find>contentData</find>
       <find>/topBar</find>
+      <find>1012956714</find>
+      <find>app.2547d95f3867d330a30aa52efc10dd20.css</find>
+      <find>blog</find>
+      <find>desam.</find>
+      <find>href:&quot;//www.mi.com/index.html&quot;</find>
+      <find>aolian</find>
+      <find>../../static/img</find>
+      <find>../../public/imga</find>
+      <find>../../public/images</find>
+      <find>kp3.gif</find>
+      <find>&quot;images/vc_project/</find>
+      <find>profile.a</find>
+      <find>static/img/</find>
+      <find>profile</find>
+      <find>&quot;images/profile</find>
+      <find>&quot;images/guild</find>
+      <find>guild</find>
+      <find>canton_tower</find>
+      <find>static/img/profile</find>
+      <find>millet.</find>
+      <find>../../static/img/</find>
+      <find>vc_pr</find>
+      <find>images/vc_project/</find>
+      <find>profile.</find>
     </findStrings>
     <replaceStrings>
-      <replace>scatter_echart</replace>
-      <replace>add(new Option(</replace>
-      <replace>+i).add</replace>
-      <replace>));</replace>
-      <replace>#y</replace>
-      <replace>gap +  ',' + min</replace>
-      <replace>scatter</replace>
-      <replace>kline</replace>
-      <replace>margin-top: 5px;</replace>
-      <replace>src=/javascripts/</replace>
       <replace>src=./javascripts/dp7/</replace>
       <replace>./javascripts/axon02</replace>
       <replace>jpg</replace>
@@ -188,10 +198,21 @@
       <replace>{attrs:{href:&quot;/building&quot;,target:&quot;_blank&quot;}},[t._v(&quot;MIUI&quot;)])</replace>
       <replace>{href:&quot;/building&quot;,target:&quot;_blank&quot;}}</replace>
       <replace>{href:&quot;/building&quot;}}</replace>
+      <replace>app.62c271b29c2c1f4fbb6302d8d5ded471.css</replace>
+      <replace>../../public/images</replace>
+      <replace>images</replace>
+      <replace>&quot;images/others/</replace>
+      <replace>images/guild/profile</replace>
+      <replace />
+      <replace>guide</replace>
+      <replace>images/guide/profile</replace>
       <replace>href:&quot;/millet&quot;</replace>
+      <replace>images/</replace>
+      <replace>images/others/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\workspace\share\views</dir>
+      <dir>E:\workspace\share\public\javascripts\others</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -201,8 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/json/main/household.json" />
-        <option value="$PROJECT_DIR$/public/json/main/match.json" />
         <option value="$PROJECT_DIR$/public/json/main/package.json" />
         <option value="$PROJECT_DIR$/public/json/main/parts.json" />
         <option value="$PROJECT_DIR$/public/json/main/recommend.json" />
@@ -222,10 +241,7 @@
         <option value="$PROJECT_DIR$/public/javascripts/millet/app.e28730d62e47728a93ad.js" />
         <option value="$PROJECT_DIR$/public/javascripts/guide/app.16652b66c597f6e03417.js" />
         <option value="$PROJECT_DIR$/public/javascripts/others/app.a588ac25e25b18a1556d.js" />
-        <option value="$PROJECT_DIR$/views/guide.ejs" />
         <option value="$PROJECT_DIR$/views/millet.ejs" />
-        <option value="$PROJECT_DIR$/views/others.ejs" />
-        <option value="$PROJECT_DIR$/views/resume.ejs" />
         <option value="$PROJECT_DIR$/lib/query_table_data.js" />
         <option value="$PROJECT_DIR$/public/javascripts/resume/app.7cb5364e669c0d505850.js" />
         <option value="$PROJECT_DIR$/bin/www" />
@@ -252,6 +268,11 @@
         <option value="$PROJECT_DIR$/routes/main.js" />
         <option value="$PROJECT_DIR$/public/assets/js/main.474926442b5c8ed91d6f.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/guide.ejs" />
+        <option value="$PROJECT_DIR$/views/others.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/guide/app.f7db9bb147e095ae4d45.js" />
+        <option value="$PROJECT_DIR$/views/resume.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/others/app.5d5610655c8b093c5734.js" />
       </list>
     </option>
   </component>
@@ -275,9 +296,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="301" />
-    <option name="y" value="28" />
-    <option name="width" value="1561" />
+    <option name="x" value="279" />
+    <option name="y" value="57" />
+    <option name="width" value="1564" />
     <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -331,8 +352,48 @@
               <item name="share" type="b2602c69:ProjectViewProjectNode" />
               <item name="share" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="share" type="b2602c69:ProjectViewProjectNode" />
@@ -344,8 +405,14 @@
               <item name="share" type="b2602c69:ProjectViewProjectNode" />
               <item name="share" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="kind" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="share" type="b2602c69:ProjectViewProjectNode" />
@@ -370,7 +437,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.11.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crawer_mi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myWebsite" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -385,11 +452,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\share\public\json" />
-      <recent name="E:\workspace\share\views" />
-      <recent name="E:\workspace\share\routes" />
-      <recent name="E:\workspace\share\public\stylesheets\axon02" />
-      <recent name="E:\workspace\share\public\javascripts\axon02" />
+      <recent name="E:\workspace\share\public\javascripts\others" />
+      <recent name="E:\workspace\share\public\javascripts\resume" />
+      <recent name="E:\workspace\share\public\images\guide" />
+      <recent name="E:\workspace\share\public\javascripts\guide" />
+      <recent name="E:\workspace\share\public\stylesheets\guide" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -572,7 +639,7 @@
       <workItem from="1552008483589" duration="7089000" />
       <workItem from="1552289304687" duration="1095000" />
       <workItem from="1552371971680" duration="2046000" />
-      <workItem from="1552466138224" duration="8556000" />
+      <workItem from="1552466138224" duration="18188000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1521184660119</created>
@@ -592,7 +659,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1129334000" />
+    <option name="totallyTimeSpent" value="1138966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,17 +671,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="301" y="28" width="1561" height="981" extended-state="0" />
+    <frame x="279" y="57" width="1564" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20026264" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17365661" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.22911964" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50509554" side_tool="true" weight="0.15911601" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32844242" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3270142" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.25514874" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49490446" visible="true" weight="0.29620853" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49490446" visible="true" weight="0.27606636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24920887" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49490446" weight="0.3611738" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -671,49 +738,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_today_data.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/share_exchange_rate.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/share_waterfall.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/share_waterfall_newest.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_range_daily_data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/write_share_daily_date_to_mysql.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="122" column="56" selection-start-line="122" selection-start-column="56" selection-end-line="122" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/digital_process.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dp8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/guide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/home.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -725,9 +749,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/instruction.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/others.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/resume.js">
@@ -897,13 +918,6 @@
     <entry file="file://$PROJECT_DIR$/public/json/kind/life.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/guide.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="130" selection-start-column="130" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/cellphone.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -958,8 +972,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/guide/app.62c271b29c2c1f4fbb6302d8d5ded471.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/axon02/manifest.2ae2e69a05c33dfc65f8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/others.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/guide/vendor.92a434c973eefec2db1a.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/others/app.a588ac25e25b18a1556d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret column="18518" lean-forward="true" selection-start-column="18518" selection-end-column="18518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/guide.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="488" selection-start-column="488" selection-end-column="488" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/others.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="150" selection-start-column="150" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/guide/app.f7db9bb147e095ae4d45.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret column="5124" selection-start-column="5124" selection-end-column="5124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/resume/app.13709f8cd1e799c8be34.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/resume.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="511" selection-start-column="511" selection-end-column="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/others/app.5d5610655c8b093c5734.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret column="1386" lean-forward="true" selection-start-column="1386" selection-end-column="1386" />
         </state>
       </provider>
     </entry>

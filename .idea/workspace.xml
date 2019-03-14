@@ -85,11 +85,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="television.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="television.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/television.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.474926442b5c8ed91d6f.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/main.474926442b5c8ed91d6f.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret column="23679" selection-start-column="23679" selection-end-column="23679" />
             </state>
           </provider>
         </entry>
@@ -137,20 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button_set</find>
-      <find>xmlHttp</find>
-      <find>ajaxTimer</find>
-      <find>192.168</find>
-      <find>abT</find>
-      <find>request</find>
-      <find>startAjaxTimer</find>
-      <find>getHttpRequest</find>
-      <find>requestData</find>
-      <find>startAjaxTimerServer</find>
-      <find>strBeReceive</find>
-      <find>start</find>
-      <find>100</find>
-      <find>communicateSpeed</find>
       <find>option_item</find>
       <find>share</find>
       <find>fetchDailyData</find>
@@ -167,12 +162,22 @@
       <find>../public/json/commodity.json</find>
       <find>http://www.mi.com/</find>
       <find>topBa</find>
+      <find>//www.mi.com/index.html</find>
+      <find>href:&quot;//www.mi.com/index.html&quot;</find>
+      <find>href:&quot;https://www.miui.com/&quot;</find>
+      <find>href:&quot;millet&quot;</find>
+      <find>{attrs:{href:&quot;/millet&quot;,target:&quot;_blank&quot;}},[t._v(&quot;MIUI&quot;)])</find>
+      <find>{href:&quot;https://i.mi.com/&quot;,target:&quot;_blank&quot;}}</find>
+      <find>{href:&quot;https://jr.mi.com?from=micom&quot;,target:&quot;_blank&quot;}}</find>
+      <find>{href:&quot;https://youpin.mi.com/&quot;,target:&quot;_blank&quot;}}</find>
+      <find>{href:&quot;https://shuidi.mi.com/&quot;,target:&quot;_blank&quot;}}</find>
+      <find>{href:&quot;https://b.mi.com/?client_id=180100031058&amp;masid=17409.0358&quot;,target:&quot;_blank&quot;}}</find>
+      <find>{href:&quot;//order.mi.com/site/login&quot;,&quot;data-needlogin&quot;:&quot;true&quot;}}</find>
+      <find>{href:&quot;https://account.xiaomi.com/pass/register&quot;}}</find>
+      <find>{href:&quot;//order.mi.com/site/login&quot;}}</find>
+      <find>{href:&quot;https://iot.mi.com/index.html&quot;}}</find>
     </findStrings>
     <replaceStrings>
-      <replace />
-      <replace>Desc</replace>
-      <replace>rate_sum</replace>
-      <replace>15</replace>
       <replace>scatter_echart</replace>
       <replace>add(new Option(</replace>
       <replace>+i).add</replace>
@@ -199,6 +204,10 @@
       <replace>others</replace>
       <replace>send</replace>
       <replace>json</replace>
+      <replace>href:&quot;/millet&quot;</replace>
+      <replace>{attrs:{href:&quot;/building&quot;,target:&quot;_blank&quot;}},[t._v(&quot;MIUI&quot;)])</replace>
+      <replace>{href:&quot;/building&quot;,target:&quot;_blank&quot;}}</replace>
+      <replace>{href:&quot;/building&quot;}}</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\workspace\share\views</dir>
@@ -211,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/json/main/hotcommend.json" />
         <option value="$PROJECT_DIR$/public/json/main/household.json" />
         <option value="$PROJECT_DIR$/public/json/main/match.json" />
         <option value="$PROJECT_DIR$/public/json/main/package.json" />
@@ -262,6 +270,7 @@
         <option value="$PROJECT_DIR$/routes/building.js" />
         <option value="$PROJECT_DIR$/routes/main.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/assets/js/main.474926442b5c8ed91d6f.js" />
       </list>
     </option>
   </component>
@@ -285,9 +294,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="539" />
+    <option name="x" value="387" />
     <option name="y" value="30" />
-    <option name="width" value="1409" />
+    <option name="width" value="1561" />
     <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -330,6 +339,19 @@
               <item name="share" type="b2602c69:ProjectViewProjectNode" />
               <item name="share" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="share" type="b2602c69:ProjectViewProjectNode" />
@@ -569,7 +591,7 @@
       <workItem from="1552008483589" duration="7089000" />
       <workItem from="1552289304687" duration="1095000" />
       <workItem from="1552371971680" duration="2046000" />
-      <workItem from="1552466138224" duration="6209000" />
+      <workItem from="1552466138224" duration="6922000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1521184660119</created>
@@ -589,7 +611,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1126987000" />
+    <option name="totallyTimeSpent" value="1127700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,10 +623,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="539" y="30" width="1409" height="981" extended-state="0" />
+    <frame x="387" y="30" width="1561" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18234865" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20026264" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.22911964" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50509554" side_tool="true" weight="0.15911601" />
@@ -668,13 +690,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/json/main/cellphone.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_today_data.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -946,6 +961,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/millet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/television.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -953,10 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/millet.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/main.474926442b5c8ed91d6f.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="247">
+          <caret column="23679" selection-start-column="23679" selection-end-column="23679" />
         </state>
       </provider>
     </entry>

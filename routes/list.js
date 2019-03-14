@@ -14,7 +14,7 @@ router.get('/', function (req, res) {
   res.send(html)
 })
 
-router.get('/jsonData', (req, res) => {
+router.get('/listPageData', (req, res) => {
   // res.render('main', {title: 'HomePage'}) // 使用模板
   console.log('listPageData')
   res.send(listData)

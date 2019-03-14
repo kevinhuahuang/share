@@ -1,0 +1,17 @@
+.waterfall_table_style{
+    width: 200px;
+    min-height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th {
+    min-width: 95px;
+    color: #0968d6;
+    background-color: yellow;
+}
+
+.available {
+    background-color:#84FF6D
+}

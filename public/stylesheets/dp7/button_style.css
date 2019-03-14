@@ -1,0 +1,1160 @@
+
+.button_three_states { /* DEQ1 DEQ2 DEQ 列表 帮助 程序 设置 显示 锁定 报告*/
+
+}
+
+a, span, div, button, select {
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+/*********************************************************************/
+.button_four_states_false, .button_four_states_true { /* 输入输出按钮*/
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;  /* no underline*/
+    font-size: 20px;
+    text-align: center;   /* font horizontal align*/
+    line-height: 45px;   /* font vertical align*/
+    font-family: Arial Black, Arial, sans-serif, Helvetica Neue, Helvetica;
+    /*font-weight: 900;   !*bold*!*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;              /* Non-prefixed version, currently not supported by any browser */
+}
+
+.button_four_states_true:hover {
+    color: orange;
+    background-color: #5F5F5F;
+}
+
+.button_four_states_true:active {
+    color: #fff;
+    background-color: red;
+}
+
+.button_four_states_false {
+    color: #fff;
+    background-color: red;
+}
+
+
+/*********************************************************************/
+.button_six_states_false, .button_six_states_true { /* ABCD EQ EQ1-EQ6 +- 喇叭 曲线*/
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;  /* no underline*/
+    font-size: 12px;
+    text-align: center;   /* font horizontal align*/
+    line-height: 17px;   /* font vertical align*/
+    /*font-weight: 500;   !*bold*!*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;
+
+}
+
+.button_six_states_false:hover {
+    color: orange;
+    background-color: #5F5F5F;
+}
+
+.button_six_states_false:active {
+    color: #fff;
+    background-color: #00b900;
+}
+
+.button_six_states_true {
+    color: #fff;
+    background-color: #00b900;
+}
+
+.button_six_states_true:hover {
+    color: orange;
+    background-color: #00b900;
+}
+
+.button_six_states_true:active {
+    color: #fff;
+    background-color: black;
+}
+
+
+/************************ speaker***************************************/
+.button_speaker_false, .button_speaker_true {
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 50px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.button_speaker_true_lock {
+    position: absolute;
+    top: 3px;
+    left: 9px;
+    width: 50px;
+    height: 24px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.button_speaker_true:hover {
+    background: #5F5F5F;
+}
+
+.button_speaker_true:active {
+    background: #FFF;
+}
+
+/*************/
+.button_speaker_false {
+    background: #999999;
+}
+
+.button_speaker_false:hover {
+    background:#cccccc;
+}
+
+.button_speaker_false:active {
+    background-color: #999999;
+}
+
+/**********************************/
+.speakerSpan{
+    position:absolute;
+    top: 10%;
+    left: 30%;
+    height:20px;
+    width:20px;
+    display:block;
+}
+/********非静音*********/
+.speakingSpan1{
+    position:absolute;
+}
+
+.speakingSpan1:before{ /**方形**/
+    position:absolute;
+    top:6px;
+    left:0;
+    content:'';
+    height:8px;
+    width:6px;
+    display:block;
+    background: blue;
+}
+
+.speakingSpan1:hover:before {
+    background: orange;
+}
+
+.speakingSpan1:active:before {
+    background: red;
+}
+
+
+.speakingSpan1:after{ /**梯形**/
+    position:absolute;
+    top:1px;
+    left:6px;
+    content:'';
+    height:8px;
+    width:0;
+    display:block;
+    border:5px transparent solid;
+    border-left-width:0;
+    border-right-color: blue;
+}
+
+.speakingSpan1:hover:after {
+    border-right-color: orange;
+}
+
+.speakingSpan1:active:after {
+    border-right-color: red;
+}
+
+.speakingSpan2{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.speakingSpan2:before{ /**外环**/
+    position:absolute;
+    top:-2px;
+    left:-3px;
+    content:'';
+    height:20px;
+    width:20px;
+    display:block;
+    border:2px solid transparent;
+    border-right:2px solid blue;  /*只显示右边框*/
+    /* 显示另外三个边框颜色，可观察到一个圆形
+    border-left-color:green;
+    border-top-color:gray;
+    border-bottom-color:orange;
+    */
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+}
+
+.speakingSpan2:hover:before {
+    border-right-color: orange;
+}
+
+.speakingSpan2:active:before {
+    border-right-color: red;
+}
+
+
+.speakingSpan2:after{ /**内环**/
+    position:absolute;
+    top:1px;
+    left:-3px;
+    content:'';
+    height:15px;
+    width:15px;
+    display:block;
+    border:2px solid transparent;
+    border-right:2px solid blue;   /*只显示右边框*/
+    /* 显示另外三个边框颜色，可观察到一个圆形
+    border-left-color:green;
+    border-top-color:gray;
+    border-bottom-color:orange;
+    */
+    border-radius:10px;          /**注意 半径是20px 不是30px**/
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+}
+
+.speakingSpan2:hover:after {
+    border-right-color: orange;
+}
+
+.speakingSpan2:active:after {
+    border-right-color: red;
+}
+/********静音*********/
+
+.muteSpan1{
+    position:absolute;
+}
+
+.muteSpan1:before{  /**方形**/
+    position:absolute;
+    top:6px;
+    left:3px;
+    content:'';
+    height:8px;
+    width:6px;
+    display:block;
+    background:#333;
+}
+
+
+.muteSpan1:hover:before {
+    background: orange;
+}
+
+.muteSpan1:active:before {
+    background: red;
+}
+
+.muteSpan1:after{ /**梯形**/
+    content:'';
+    height:8px;
+    width:0;
+    display:block;
+    border:5px transparent solid;
+    border-left-width:0;
+    border-right-color:#333;
+    position:absolute;
+    top:1px;
+    left:8px;
+}
+
+.muteSpan1:hover:after {
+    border-right-color: orange;
+}
+
+.muteSpan1:active:after {
+    border-right-color: red;
+}
+
+.muteSpan2{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.muteSpan2:before{ /**圆**/
+    content:'';
+    height:22px;
+    width:22px;
+    display:block;
+    border:1px solid red;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    position:absolute;
+    top:-2px;
+    left:-2px;
+}
+
+
+.muteSpan2:hover:before {
+    border-color: orange;
+}
+
+.muteSpan2:active:before {
+    border-color: black;
+}
+
+
+.muteSpan2:after{ /**斜线**/
+    content:'';
+    height:23px;
+    width:1px;
+    display:block;
+    background: red;
+    position:absolute;
+    top:0px;
+    left:10px;
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+}
+
+.muteSpan2:hover:after {
+    border-color: orange;
+}
+
+.muteSpan2:active:after {
+    border-color: black;
+}
+
+/************************* phase*******************************************/
+.button_phase_false, .button_phase_true { /*white background + black word*/
+    cursor: pointer;
+    position: absolute;
+    top: 36px;
+    left: 32px;
+    width: 56px;
+    height: 28px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+.button_phase_false:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    box-shadow:  0 0 0 2px black,
+    2px 0 0 2px black,
+    4px 0 0 2px black,
+    6px 0 0 2px black,
+    8px 0 0 2px black,
+    10px 0 0 2px black,
+    12px 0 0 2px black,
+    6px -6px 0 2px black,
+    6px -4px 0 2px black,
+    6px -2px 0 2px black,
+    6px 0 0 2px black,
+    6px 2px 0 2px black,
+    6px 4px 0 2px black,
+    6px 6px 0 2px black;
+}
+
+.button_phase_false:hover {  /*gray background  + orange word*/
+    background-color: #5F5F5F ;
+
+}
+
+.button_phase_false:hover:before {
+    box-shadow:  0 0 0 2px orange,
+    2px 0 0 2px orange,
+    4px 0 0 2px orange,
+    6px 0 0 2px orange,
+    8px 0 0 2px orange,
+    10px 0 0 2px orange,
+    12px 0 0 2px orange,
+    6px -6px 0 2px orange,
+    6px -4px 0 2px orange,
+    6px -2px 0 2px orange,
+    6px 0 0 2px orange,
+    6px 2px 0 2px orange,
+    6px 4px 0 2px orange,
+    6px 6px 0 2px orange;
+}
+
+.button_phase_false:active {   /*like the state of false*/
+    background-color: red;
+}
+
+.button_phase_false:active:before {
+    box-shadow:  0 0 0 2px white,
+    2px 0 0 2px white,
+    4px 0 0 2px white,
+    6px 0 0 2px white,
+    8px 0 0 2px white,
+    10px 0 0 2px white,
+    12px 0 0 2px white,
+    6px -6px 0 2px white,
+    6px -4px 0 2px white,
+    6px -2px 0 2px white,
+    6px 0 0 2px white,
+    6px 2px 0 2px white,
+    6px 4px 0 2px white,
+    6px 6px 0 2px white;
+}
+
+.button_phase_true { /*red background + white word*/
+    background-color: red;
+}
+
+.button_phase_true:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    box-shadow:  0 0 0 2px white,
+    2px 0 0 2px white,
+    4px 0 0 2px white,
+    6px 0 0 2px white,
+    8px 0 0 2px white,
+    10px 0 0 2px white,
+    12px 0 0 2px white;
+}
+
+.button_phase_true:hover {   /*red background + orange word*/
+    background-color: #5F5F5F;
+}
+
+.button_phase_true:hover:before {
+    box-shadow:  0 0 0 2px orange,
+    2px 0 0 2px orange,
+    4px 0 0 2px orange,
+    6px 0 0 2px orange,
+    8px 0 0 2px orange,
+    10px 0 0 2px orange,
+    12px 0 0 2px orange;
+}
+
+.button_phase_true:active {  /*same to state of true  white background + black word*/
+    background-color: white;
+}
+
+.button_phase_true:active:before {
+    box-shadow:  0 0 0 2px black,
+    2px 0 0 2px black,
+    4px 0 0 2px black,
+    6px 0 0 2px black,
+    8px 0 0 2px black,
+    10px 0 0 2px black,
+    12px 0 0 2px black;
+}
+
+/************************* phase_out*******************************************/
+.button_phase_false_out, .button_phase_true_out { /*white background + black word*/
+    cursor: pointer;
+    position: absolute;
+    top: 46px;
+    left: 30px;
+    width: 56px;
+    height: 28px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+
+.button_phase_false_out:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    box-shadow:  0 0 0 2px black,
+    2px 0 0 2px black,
+    4px 0 0 2px black,
+    6px 0 0 2px black,
+    8px 0 0 2px black,
+    10px 0 0 2px black,
+    12px 0 0 2px black,
+    6px -6px 0 2px black,
+    6px -4px 0 2px black,
+    6px -2px 0 2px black,
+    6px 0 0 2px black,
+    6px 2px 0 2px black,
+    6px 4px 0 2px black,
+    6px 6px 0 2px black;
+}
+
+.button_phase_false_out:hover {  /*gray background  + orange word*/
+    background-color: #5F5F5F ;
+
+}
+
+.button_phase_false_out:hover:before {
+    box-shadow:  0 0 0 2px orange,
+    2px 0 0 2px orange,
+    4px 0 0 2px orange,
+    6px 0 0 2px orange,
+    8px 0 0 2px orange,
+    10px 0 0 2px orange,
+    12px 0 0 2px orange,
+    6px -6px 0 2px orange,
+    6px -4px 0 2px orange,
+    6px -2px 0 2px orange,
+    6px 0 0 2px orange,
+    6px 2px 0 2px orange,
+    6px 4px 0 2px orange,
+    6px 6px 0 2px orange;
+}
+
+.button_phase_false_out:active {   /*like the state of false*/
+    background-color: red;
+}
+
+.button_phase_false_out:active:before {
+    box-shadow:  0 0 0 2px white,
+    2px 0 0 2px white,
+    4px 0 0 2px white,
+    6px 0 0 2px white,
+    8px 0 0 2px white,
+    10px 0 0 2px white,
+    12px 0 0 2px white,
+    6px -6px 0 2px white,
+    6px -4px 0 2px white,
+    6px -2px 0 2px white,
+    6px 0 0 2px white,
+    6px 2px 0 2px white,
+    6px 4px 0 2px white,
+    6px 6px 0 2px white;
+}
+
+.button_phase_true_out { /*red background + white word*/
+    background-color: red;
+}
+
+.button_phase_true_out:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    box-shadow:  0 0 0 2px white,
+    2px 0 0 2px white,
+    4px 0 0 2px white,
+    6px 0 0 2px white,
+    8px 0 0 2px white,
+    10px 0 0 2px white,
+    12px 0 0 2px white;
+}
+
+.button_phase_true_out:hover {   /*red background + orange word*/
+    background-color: #5F5F5F;
+}
+
+.button_phase_true_out:hover:before {
+    box-shadow:  0 0 0 2px orange,
+    2px 0 0 2px orange,
+    4px 0 0 2px orange,
+    6px 0 0 2px orange,
+    8px 0 0 2px orange,
+    10px 0 0 2px orange,
+    12px 0 0 2px orange;
+}
+
+.button_phase_true_out:active {  /*same to state of true  white background + black word*/
+    background-color: white;
+}
+
+.button_phase_true_out:active:before {
+    box-shadow:  0 0 0 2px black,
+    2px 0 0 2px black,
+    4px 0 0 2px black,
+    6px 0 0 2px black,
+    8px 0 0 2px black,
+    10px 0 0 2px black,
+    12px 0 0 2px black;
+}
+/************************* EQ**********************************************/
+.button_eq_false, .button_eq_true  { /* white background black word*/
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+    height: 24px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none; /* no underline*/
+    font-size: 15px;
+    text-align: center; /* font horizontal align*/
+    line-height: 25px; /* font vertical align*/
+    font-weight: bold; /*bold*/
+    /* no select*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+
+
+.button_eq_false:hover { /* gray background orange word*/
+    background-color: #5F5F5F;
+    color: orange;
+}
+
+.button_eq_false:active { /* green background white word*/
+    background-color: #00b900;
+    color: white;
+}
+
+
+.button_eq_true {
+    background-color: #00b900;
+    color: white;
+}
+
+.button_eq_true:hover {
+    background-color: #00b900;
+    color: orange;
+}
+
+.button_eq_true:active {
+    background-color: white;
+    color: black;
+}
+/************************* DEQ**********************************************/
+.button_deq_false, .button_deq_true  { /* white background black word*/
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    width: 55px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none; /* no underline*/
+    font-size: 14px;
+    text-align: center; /* font horizontal align*/
+    line-height: 25px; /* font vertical align*/
+    font-weight: bold; /*bold*/
+    /* no select*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+
+.button_deq_true_lock {  /* white background black word*/
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 55px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;  /* no underline*/
+    font-size: 15px;
+    text-align: center;   /* font horizontal align*/
+    line-height: 25px;   /* font vertical align*/
+    font-weight: bold;   /*bold*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;              /* Non-prefixed version, currently not supported by any browser */
+}
+
+
+.button_deq_false:hover { /* gray background orange word*/
+    background-color: #5F5F5F;
+    color: orange;
+}
+
+.button_deq_false:active { /* green background white word*/
+    background-color: #00b900;
+    color: white;
+}
+
+
+.button_deq_true {
+    background-color: #00b900;
+    color: white;
+}
+
+.button_deq_true:hover {
+    background-color: #00b900;
+    color: orange;
+}
+
+.button_deq_true:active {
+    background-color: white;
+    color: black;
+}
+
+
+/************************* curve***********************************************/
+.button_curve_a_false, .button_curve_a_true, .button_curve_b_false, .button_curve_b_true,
+.button_curve_c_false, .button_curve_c_true, .button_curve_d_false, .button_curve_d_true,
+.button_curve_out1_false, .button_curve_out1_true,.button_curve_out2_false, .button_curve_out2_true,
+.button_curve_out3_false, .button_curve_out3_true, .button_curve_out4_false, .button_curve_out4_true,
+.button_curve_out5_false, .button_curve_out5_true, .button_curve_out6_false, .button_curve_out6_true,
+.button_curve_out7_false, .button_curve_out7_true, .button_curve_out8_false, .button_curve_out8_true {
+    cursor: pointer;
+    position: absolute;
+    top: 34px;
+    left: 5px;
+    width: 50px;
+    height: 24px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;  /* no underline*/
+    font-size: 14px;
+    text-align: center;   /* font horizontal align*/
+    line-height: 26px;   /* font vertical align*/
+    /*font-weight: 600;   !*bold*!*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+
+.button_curve_a_true:hover,.button_curve_b_true:hover, .button_curve_c_true:hover,.button_curve_d_true:hover,
+.button_curve_out1_true:hover,.button_curve_out2_true:hover, .button_curve_out3_true:hover,.button_curve_out4_true:hover,
+.button_curve_out5_true:hover, .button_curve_out6_true:hover, .button_curve_out7_true:hover, .button_curve_out8_true:hover{
+    background-color: #5F5F5F;
+    color: orange;
+}
+
+
+.button_curve_a_true:active,.button_curve_b_true:active, .button_curve_c_true:active,.button_curve_d_true:active,
+.button_curve_out1_true:active,.button_curve_out2_true:active, .button_curve_out3_true:active,.button_curve_out4_true:active,
+.button_curve_out5_true:active, .button_curve_out6_true:active, .button_curve_out7_true:active, .button_curve_out8_true:active{
+    background-color: white;
+    color: black;
+}
+
+
+.button_curve_a_false:hover,.button_curve_b_false:hover, .button_curve_c_false:hover,.button_curve_d_false:hover,
+.button_curve_out1_false:hover, .button_curve_out1_true:hover,.button_curve_out2_false:hover, .button_curve_out2_true:hover,
+.button_curve_out3_false:hover, .button_curve_out3_true:hover, .button_curve_out4_false:hover, .button_curve_out4_true:hover,
+.button_curve_out5_false:hover, .button_curve_out5_true:hover, .button_curve_out6_false:hover, .button_curve_out6_true:hover,
+.button_curve_out7_false:hover, .button_curve_out7_true:hover, .button_curve_out8_false:hover, .button_curve_out8_true:hover{
+    background-color: #5F5F5F;
+    color: orange;
+}
+
+.button_curve_a_false, .button_curve_b_false, .button_curve_c_false, .button_curve_d_false,
+.button_curve_out1_false, .button_curve_out2_false, .button_curve_out3_false, .button_curve_out4_false,
+.button_curve_out5_false, .button_curve_out6_false, .button_curve_out7_false, .button_curve_out8_false{
+    background-color: white;
+    color: black;
+}
+
+
+
+/*************************/
+.button_curve_a_true {
+    background-color: #00FFFF;
+    color: black;
+}
+
+
+.button_curve_b_true {
+    background-color: #DF127B;
+    color: black;
+}
+
+.button_curve_d_true {
+    background-color: #FFFF00;
+    color: black;
+}
+
+.button_curve_c_true {
+    background-color: #027BC0;
+    color: black;
+}
+
+.button_curve_out1_true {
+    background-color: #FF0000;
+    color: black;
+}
+
+.button_curve_out2_true {
+    background-color: #00C000;
+    color: black;
+}
+
+.button_curve_out3_true {
+    background-color: #8080C0;
+    color: black;
+}
+
+.button_curve_out4_true {
+    background-color: #FF40FF;
+    color: black;
+}
+
+.button_curve_out5_true {
+    background-color: #00C0C0;
+    color: black;
+}
+
+.button_curve_out6_true {
+    background-color: #C0A800;
+    color: black;
+}
+
+.button_curve_out7_true {
+    background-color: #FF8000;
+    color: black;
+}
+
+.button_curve_out8_true {
+    background-color: #0000FF;
+    color: black;
+}
+/*************************/
+.button_curve_a_false:active {
+    background-color: #00FFFF;
+    color: black;
+}
+
+
+.button_curve_b_false:active {
+    background-color: #DF127B;
+    color: black;
+}
+
+.button_curve_c_false:active {
+    background-color: #027BC0;
+    color: black;
+}
+
+.button_curve_d_false:active {
+    background-color: #FFFF00;
+    color: black;
+}
+
+.button_curve_out1_false:active {
+    background-color: #FF0000;
+    color: black;
+}
+
+.button_curve_out2_false:active {
+    background-color: #00C000;
+    color: black;
+}
+
+.button_curve_out3_false:active {
+    background-color: #8080C0;
+    color: black;
+}
+
+.button_curve_out4_false:active {
+    background-color: #FF40FF;
+    color: black;
+}
+
+.button_curve_out5_false:active {
+    background-color: #00C0C0;
+    color: black;
+}
+
+.button_curve_out6_false:active {
+    background-color: #C0A800;
+    color: black;
+}
+
+.button_curve_out7_false:active {
+    background-color: #FF8000;
+    color: black;
+}
+
+.button_curve_out8_false:active {
+    background-color: #0000FF;
+    color: black;
+}
+/*********************** phase curve*********************************************/
+.button_phase_curve_false, .button_phase_curve_true {
+    cursor: pointer;
+    position: absolute;
+    left: 9px;
+    bottom: 70px;
+    width: 48px;
+    height: 58px; /* 58-10  padding-top= 10*/
+    background-color: white;
+    /*opacity: 0.5;*/
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;  /* no underline*/
+    font-size: 15px;
+    text-align: center;   /* font horizontal align*/
+    /*font-weight: 900;   !*bold*!*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.button_phase_curve_true_lock{
+    position: absolute;
+    left: 9px;
+    bottom: 70px;
+    width: 48px;
+    height: 58px; /* 58-10  padding-top= 10*/
+    background-color: #ebebe4;
+    color: grey;
+    border-radius: 5px;
+    text-decoration: none;  /* no underline*/
+    font-size: 20px;
+    text-align: center;   /* font horizontal align*/
+    line-height: 60px;
+    /*font-weight: 900;   !*bold*!*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+
+
+
+.button_phase_curve_true:hover {
+    background-color: #5F5F5F;
+    color: orange;
+}
+
+.button_phase_curve_true:active {
+    background-color: #5F5F5F;
+    color: orange;
+}
+
+.button_phase_curve_false {
+    background-color: white;
+    color: black;
+}
+
+.button_phase_curve_false:hover {
+    background-color: #5F5F5F;
+    color: orange;
+}
+
+.button_phase_curve_false:active {
+    background-color: #5F5F5F;
+    color: orange;
+}
+
+/************************* other*******************************************/
+.button_other {  /* white background black word*/
+    position: absolute;
+    top:6px;
+    left:630px;
+    width: 74px;
+    height: 30px;
+    background-color: white;
+    color: black;
+
+    border-radius: 5px;
+    text-decoration: none;  /* no underline*/
+    font-size: 15px;
+    text-align: center;   /* font horizontal align*/
+    /*line-height: 22px;   !* font vertical align*!*/
+    /*font-weight: 600;   !*bold*!*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.button_other_lock {  /* white background black word*/
+    position: absolute;
+    top:6px;
+    left:630px;
+    width: 64px;
+    height: 30px;
+    background-color: white;
+    color: black;
+
+    border-radius: 5px;
+    text-decoration: none;  /* no underline*/
+    font-size: 15px;
+    text-align: center;   /* font horizontal align*/
+    line-height: 22px;   /* font vertical align*/
+    /*font-weight: 600;   !*bold*!*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+
+.button_other:hover { /* orange background white word */
+    background-color: orange;
+    color: white;
+}
+
+.button_other:active { /* red background white word */
+    background-color: red;
+    color: white;
+}
+
+/************************* connect*******************************************/
+.button_connect_false, .button_connect_true {
+    cursor: pointer;
+    position: absolute;
+    top: 59px;
+    left: 2px;
+    width: 140px;
+    height: 35px;
+
+    border-radius: 5px;
+    text-decoration: none;  /* no underline*/
+    font-size: 15px;
+    text-align: center;   /* font horizontal align*/
+    line-height: 18px;   /* font vertical align*/
+    /*font-weight: 900;   !*bold*!*/
+    /* no select*/
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Chrome/Safari/Opera */
+    -khtml-user-select: none;       /* Konqueror */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;
+
+    -webkit-transform-origin-x: 0;
+    -webkit-transform: scale(0.60);
+    transform-origin : 0;
+    transform: scale(0.60);
+
+}
+
+.button_connect_true { /* red background white word*/
+    background-color: red;
+    color: white;
+}
+
+.button_connect_true:hover { /* green background white word*/
+    background-color: green;
+    color: white;
+
+}
+
+.button_connect_true:active { /* green background red word*/
+    background-color: green;
+    color: red;
+}
+
+.button_connect_false {
+    background-color: green;
+    color: white;
+}
+
+.button_connect_false:hover {
+    background-color: red;
+    color: white;
+}
+
+.button_connect_false:active {
+    background-color: green;
+    color: red;
+}
+
+
+.connect_progress {
+    position: absolute;
+    top: 67px;
+    right: 5px;
+    width: 116px;
+    height: 18px;
+    border-radius: 1px;
+    background: whitesmoke;
+}
+
+.connect_progress_content {
+    position: absolute;
+    width: 0;
+    height: 18px;
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

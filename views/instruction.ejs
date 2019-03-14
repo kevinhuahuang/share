@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script type="text/javascript" src="./javascripts/instruction.js"></script>
+  </head>
+  <body>
+  <div id="gap_min_declare">
+      <div id="gap_declare">
+          <h>数据表格</h>
+          <button id="return_data_table">返回数据表格</button>
+          <p>按钮 “最小值-->” 数据从小到大排序</p>
+          <p>按钮 “最大值-->” 数据从大到小排序</p>
+          <p>可进行排序的列： 底色为浅绿色的列，比如： pre30。单击pre30列的列头可进行正序和反序排列的切换</p>
+          <p>跌幅从大到小用不同的颜色进行提醒，颜色如下：深红，橙红，浅红，深蓝，棕蓝，浅蓝，白色</p>
+
+          <h>数据散点图</h>
+          <button id="return_scatter">返回数据散点图</button>
+          <p>通过GAP和MIN选择对应的数据表</p>
+          <p>X,Y坐标选择你要在X坐标与Y坐标上显示的数据类型</p>
+          <p>Condition 选择某数据类型作为条件，有4个值可设置，值与值之间用逗号分开，可以Content编辑框中设置</p>
+          <p>点击“确定”按钮 生成散点图</p>
+
+          <h>数据K线图</h>
+          <button id="return_kline">返回数据K线图</button>
+          <p>2窗口，3窗口，4窗口，8窗口: 对应显示2个K线图，3个K线图，4个K线图，8个K线图</p>
+          <p>最右边显示的day2, day3, day4......day360的13个按钮对应13个数据表，
+              day2: 前2天总跌幅的倒排序，即跌得最多的股票排第一。/r/n
+              day3,day4,day5...day360：前3天，前4天，前5天...前360天总跌幅的倒排序。
+              点击day2, day2按钮变为红色，表示被选中，最左边将按顺序显示该数据表中存在的股票名称与代码。
+              再点击day3, day3按钮变为红色，最左边显示的股票为day2和day3的交集，此时红色的按钮有day2,day3
+              再点击day4, day4按钮变为红色，最左边显示的股票为day2, day3和day4的交集,此时红色的按钮有day2, day3, day4
+              再次点击day3, day3按钮变为灰色，最左边显示的股票为day2, day4的集， 些时红色的按钮有day2, day4
+          </p>
+          <p>点击K线图窗口（最多8个窗口）中的任一位置，选中此K线图窗口。被选中的窗口左上角的股票名称与股票代码两个编辑框的颜色
+          为浅蓝色，未被选中的为白色</p>
+          <p>选中当前活动窗口后，点击左边的某知股票，当前窗口将显示它的K线图。
+          "ADD" 按钮：将此股票添加到我的自选股票中
+          "DEL" 按钮：将此股票从我的自选股票中删除</p>
+          <p>灰色段数字显示：此股票在day2,day3,day4...day360表中的排名</p>
+          <p>Len: 股票K线图显示的股票的天数</p>
+      <p>sync单选按钮: 选中的K线图窗口显示的K线图天数将与右上角“显示数据的长度”设置的值保持一致</p>
+          <h>GAP,MIN解释</h>
+          <p>GAP的含义：允许的最大的天数间隔</p>
+          <p>MIN的含义：允许的最小涨跌幅</p>
+          <p>比如GAP=5; MIN=9; 还有一变量Continue=6(软件自定义),从股票发行天起，当某股在5(GAP=5)天内涨跌幅达到9或以上，计数1，
+              接下来的5(GAP=5)天内，如果某天涨跌幅达到9(MIN=9)或以上，计数加1，如果涨跃幅未达到9（MIN=9）以上，数归0，接下来的天数将重复的进行判断，当计数达到6以上，这段时间的股票信息将记录
+          </p>
+          <p>记录的信息如下：</p>
+          <p>startDate  endDate 被记录的股票信息的时间区域的起始时间与结束时间</p>
+          <p>pre30: 起始时间前30天的总涨跌幅</p>
+          <p>pre90: 起始时间前30天的总涨跌幅</p>
+          <p>pre180: 起始时间前30天的总涨跌幅</p>
+          <p>pre360: 起始时间前30天的总涨跌幅</p>
+          <p>pre500: 起始时间前30天的总涨跌幅</p>
+          <p>minRate: 当前股价除股价最小值</p>
+          <p>avgRate: 当前股价除股价平均值</p>
+          <p>maxRate: 当前股价除股价最大值</p>
+          <p>sumRate: 起始时间到结束时间的总涨跌幅</p>
+          <p>rate_sum3: 结束时间后3天的总涨跌幅</p>
+          <p>rate_sum3: 结束时间后5天的总涨跌幅</p>
+          <p>rate_sum3: 结束时间后10天的总涨跌幅</p>
+          <p>rate_sum3: 结束时间后20天的总涨跌幅</p>
+          <p>rate_sum3: 结束时间后30天的总涨跌幅</p>
+          <p>rate_sum3: 结束时间后60天的总涨跌幅</p>
+          <p>rate_sum3: 结束时间后90天的总涨跌幅</p>
+          <p>GAP与MIN的可选值为1到10，GAP与MIN组合使用来从100张表中选择其中之一</p>
+      </div>
+      <div id="min_declare">
+
+      </div>
+  </div>
+  </body>
+  <style>
+
+      h {
+          color: red;
+          font-size: 25px;
+          font-weight: bolder;
+      }
+
+      button {
+          margin-left: 10px;
+      }
+  </style>
+  <script>
+    $(document).ready( function () {
+
+        $('#return_data_table').click( function () {
+            window.location.href='../gap_min_table';
+        });
+
+        $('#return_scatter').click( function () {
+            window.location.href='../gap_min_scatter';
+        });
+
+        $('#return_kline').click( function () {
+            window.location.href='../waterfall_kline';
+        });
+
+    });
+  </script>
+</html>
+
+
+
+
+
+
+
+

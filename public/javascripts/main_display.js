@@ -1,9 +1,10 @@
-document.write("<script language=javascript src='./javascripts/jquery-3.2.1.js'></script>");
-document.write("<script language=javascript src='./javascripts/echarts.js'></script>");
+document.write("<script language=javascript src='./javascripts/jquery-3.3.1.min.js'></script>");
+document.write("<script language=javascript src='./javascripts/echarts.min.js'></script>");
 document.write("<script language=javascript src='./javascripts/globalData.js'></script>");
 
 var mixArray = [];
 
+var kLineGraphic,kLineGraphicLong;
 
 function initMainPage() {
 
@@ -29,6 +30,8 @@ function initMainPage() {
     setListButtionListen();
     setMixButtonDownUp();
     addCodeListMouseWheel();
+    addKLineGraphicWheelListener();
+    setKLineGraphicUpDown();
     //alert("test");
     //$("#content").hide(5000);
 
@@ -57,7 +60,78 @@ function initMainPage() {
     //
     // // 使用刚指定的配置项和数据显示图表。
     // myChart.setOption(option);
+
+    kLineGraphic = echarts.init(document.getElementById('k_line_graphic'));
+    kLineGraphicLong = echarts.init(document.getElementById('k_line_graphic_long'));
+    $('#k_line_graphic').show();
+    $('#k_line_graphic_long').hide();
+
+    document.getElementById('test_button1').onclick = function(ev){
+        optionSlideToggle();
+    };
+
+
+    document.getElementById('test_button2').onclick = function(ev){
+        console.log('test2');
+
+        // $('#data_condition_curtain').animate({left:'300',opacity:100},1000,function(){
+        //     $('#data_condition_curtain').css({display:'visible'})
+        // })
+    };
+
+
+
+    $('#button_waterfall_scatter').click(function(){
+        // $.get('users',function(err){
+        //
+        // })
+        $(location).attr('href', './gap_min_table');
+    });
+
+
+    $('#button_waterfall_table_newest').click(function(){
+        // $.get('users',function(err){
+        //
+        // })
+        $(location).attr('href', './gap_min_scatter');
+    });
+
+
+
+    $('#button_waterfall_kline_newest').click(function(){
+        // $.get('users',function(err){
+        //
+        // })
+        $(location).attr('href', './waterfall_kline');
+    });
 }
+
+
+var optionToggle = true;
+function optionSlideToggle(){
+    if(optionToggle){
+        $('#data_condition_curtain').slideUp('fast');
+        $('#option_mix_list').slideUp('fast');
+        $('#data_display_curtain').width($('#data_display_curtain').width() + 565);
+        $('#k_line_graphic').width($('#k_line_graphic').width() + 565);
+        //kLineGraphic.length = 0;
+        //kLineGraphic = echarts.init(document.getElementById('k_line_graphic'));
+        kLineGraphicLong.setOption(option);
+        $('#k_line_graphic').hide();
+        $('#k_line_graphic_long').show();
+        optionToggle = false;
+    }else{
+        $('#data_condition_curtain').slideDown('fast');
+        $('#option_mix_list').slideDown('fast');
+        $('#data_display_curtain').width($('#data_display_curtain').width() - 565);
+        $('#k_line_graphic').width($('#k_line_graphic').width() - 565);
+        //kLineGraphic.setOption(option);
+        $('#k_line_graphic').show();
+        $('#k_line_graphic_long').hide();
+        optionToggle = true;
+    }
+}
+
 
 function setOptionButtonListen(){
     var optionId,optionName;
@@ -171,12 +245,16 @@ function setListButtionListen(){
 }
 
 function listButtonListener(e){
-    var elementId,element,index,code;
+    var elementId,element,index,code,name;
     elementId = e.target.id;
     index = elementId.match(/\d+/g);
     elementId = 'navigator_item_code' + index;
     element = document.getElementById(elementId);
     code = element.innerText;
+    elementId = 'navigator_item_name' + index;
+    element = document.getElementById(elementId);
+    name = element.innerText;
+    getKLineData(code, name);
     updateOptionSequence(code);
     updateCodeListColor(index);
     //console.log(code);
@@ -418,7 +496,7 @@ function updateCodeListColor(index){
     for(var i=1; i<=20; i++){
         elementId = 'navigator_item_name' + i;
         element = document.getElementById(elementId);
-        element.style.color = 'grey';
+        element.style.color = '#00b7ff';
     }
 
     if(index === 0){
@@ -488,6 +566,7 @@ function updateCodeListOfWheel(startIndex){
         itemCodeId = 'navigator_item_code' + (i + 1);
         setElementText(itemNameId, '');
         setElementText(itemCodeId, '');
+
     }
 
     var j=startIndex;
@@ -511,6 +590,301 @@ function updateCodeListOfWheel(startIndex){
 }
 
 
+var kLineDate = [];
+var kLineData = [];
+function getKLineData(code, name){
+    kLineDate.length = 0;
+    kLineData.length = 0;
+    $.post('kLineData',{'data':code },function(data,status){
+        //console.log(data.length);
+        // for(var i=0; i<data.length; i++){
+        //     kLineDate.push(data[i][0]);
+        //     kLineData.push([data[i][1], data[i][2], data[i][3], data[i][4]]);
+        // }
+        fullDataOfK = deepCopy(data);
+        var length = 200;
+        length = length < data.length ? length : data.length;
+        translationSteps = data.length - length;
+        for(var i=data.length - length; i<data.length; i++){
+            kLineDate.push(data[i][0]);
+            kLineData.push([data[i][1], data[i][2], data[i][3], data[i][4]]);
+        }
+        //console.log(kLineDate);
+        //console.log(kLineData);
+        updateKlineData(code, name);
+    });
+}
+
+var option;
+function updateKlineData(code, name){
+
+
+    var shareName = name;
+    var shareCode = code;
+
+
+    option = {
+        title : {
+            text: shareName + ' : ' + shareCode
+        },
+        tooltip : {
+            trigger: 'axis',
+            formatter: function (params) {
+                var res = params[0].seriesName + ' ' + params[0].name;
+                res += '<br/>  open : ' + params[0].value[0] + '  top : ' + params[0].value[3];
+                res += '<br/>  close : ' + params[0].value[1] + '  bottom : ' + params[0].value[2];
+                return res;
+            }
+        },
+        legend: {
+            data:[shareCode]
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                dataZoom : {show: true},
+                dataView : {show: true, readOnly: false},
+                magicType: {show: true, type: ['line', 'bar']},
+                restore : {show: true},
+                saveAsImage : {show: true}
+            }
+        },
+        dataZoom : {
+            show : false,
+            realtime: true,
+            start : 0,
+            end : 100
+        },
+        xAxis : [
+            {
+                type : 'category',
+                boundaryGap : true,
+                axisTick: {onGap:false},
+                splitLine: {show:false},
+                data : kLineDate
+
+            }
+        ],
+        yAxis : [
+            {
+                type : 'value',
+                scale:true,
+                boundaryGap: [0.01, 0.01]
+            }
+        ],
+        series : [
+            {
+                name: shareCode,
+                type:'k',
+                data: kLineData
+
+            }
+        ]
+    };
+
+    option.dataZoom.start = 1;
+
+    if(optionToggle){
+        kLineGraphic.setOption(option);
+    }else{
+        kLineGraphicLong.setOption(option);
+    }
+
+}
+
+
+
+function addKLineGraphicWheelListener(){
+    var element,elementId;
+
+    elementId = 'k_line_graphic';
+    element = document.getElementById(elementId);
+    element.onmousewheel = function(e){
+        event = e || window.event;
+
+        if (event.preventDefault) {
+            event.preventDefault();
+        }else {
+            event.returnValue = false;
+        }
+
+
+        var down = event.wheelDelta?event.wheelDelta<0:event.detail>0;
+        if(down){
+            option.dataZoom.start++;
+            if(option.dataZoom.start > 10000){
+                option.dataZoom.start = 100;
+            }
+            if(optionToggle){
+                kLineGraphic.setOption(option);
+            }else{
+                kLineGraphicLong.setOption(option);
+            }
+        }else {
+            option.dataZoom.start--;
+            if(option.dataZoom.start < 10){
+                option.dataZoom.start = 10;
+            }
+            if(optionToggle){
+                kLineGraphic.setOption(option);
+            }else{
+                kLineGraphicLong.setOption(option);
+            }
+            codeListMove(true);
+        }
+    }
+}
+
+function setKLineGraphicUpDown(){
+    //document.getElementById('k_line_graphic').addEventListener('keydown', keyDownRespond )
+    window.onkeydown = keyDownRespond;
+}
+
+
+function keyDownRespond(ev){
+    var e = window.event || e;
+    var code =  e.keyCode;
+
+    // if (event.preventDefault) {
+    //     event.preventDefault();
+    // }else {
+    //     event.returnValue = false;
+    // }
+
+
+    if(code === 38){        //key: up
+        if (event.preventDefault) {
+            event.preventDefault();
+        }else {
+            event.returnValue = false;
+        }
+
+        option.dataZoom.start++;
+        if(option.dataZoom.start>10000){
+            option.dataZoom.start = 100;
+        }
+        if(optionToggle){
+            kLineGraphic.setOption(option);
+        }else{
+            kLineGraphicLong.setOption(option);
+        }
+        //console.log('key up');
+        return true;
+    }else if(code === 40){  //key: down
+        if (event.preventDefault) {
+            event.preventDefault();
+        }else {
+            event.returnValue = false;
+        }
+
+        option.dataZoom.start--;
+        if(option.dataZoom.start<10){
+            option.dataZoom.start = 10;
+        }
+        if(optionToggle){
+            kLineGraphic.setOption(option);
+        }else{
+            kLineGraphicLong.setOption(option);
+        }
+        //console.log('key down');
+        return true;
+    } else if(code === 37){ //left key
+        if (event.preventDefault) {
+            event.preventDefault();
+        }else {
+            event.returnValue = false;
+        }
+
+
+        translationKGraphicLine(true);
+    } else if(code === 39){ //right key
+
+        if (event.preventDefault) {
+            event.preventDefault();
+        }else {
+            event.returnValue = false;
+        }
+
+        translationKGraphicLine(false);
+    }
+
+
+    return false;
+}
+
+
+
+var dataStartIndexOfK, dataLengthOfK;
+var fullDataOfK = [];
+var translationSteps=0;
+
+function translationKGraphicLine(isLeft){
+    var i, length,index;
+    length = 100;
+    length = length < fullDataOfK.length? length:fullDataOfK.length;
+    console.log(translationSteps);
+
+    if ((fullDataOfK.length - translationSteps) < 100){
+        return;
+    }
+
+    if(isLeft){
+
+
+        if ((fullDataOfK.length - translationSteps) < 99){
+            return;
+        }
+        translationSteps++;
+        //length = translationSteps < fullDataOfK.length-100 ? length : fullDataOfK.length-100;
+
+    }else{
+        translationSteps--;
+        if (translationSteps < 0){
+            translationSteps = 0;
+            return;
+        }
+    }
+    kLineDate.length = 0;
+    kLineData.length = 0;
+    for(i=0; i<length; i++){
+        index = i+translationSteps;
+        console.log('fullDataOfK.length: ' +  fullDataOfK.length + '  index: ' + index);
+        kLineDate.push(fullDataOfK[index][0]);
+        kLineData.push([fullDataOfK[index][1], fullDataOfK[index][2], fullDataOfK[index][3], fullDataOfK[index][4]]);
+    }
+
+    option.xAxis[0].data = kLineDate;
+    option.series[0].data  = kLineData;
+
+    if(optionToggle){
+        kLineGraphic.setOption(option);
+    }else{
+        kLineGraphicLong.setOption(option);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//========================================================================================================================================
+
+
+
+
+
+
+//========================================================================================================================================
+//========================================================================================================================================
 function deepCopy(obj) {
     var str, newObj;
     newObj = obj.constructor === Array ? [] : {};

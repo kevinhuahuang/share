@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns:width="http://www.w3.org/1999/xhtml" xmlns:top="http://www.w3.org/1999/xhtml">
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/waterfall.css' />
+    <script type="text/javascript" src="./javascripts/waterfall.js"></script>
+</head>
+<body onload="initMainPage()">
+
+<div id="main_curtain" >
+    <div id="tool_curtain" style="position:absolute; top:5px; left:2px; width:1500px; height: 30px">
+        <div id="code_list_counts" class="code_list_counts">
+            <span  id="code_list_number" class="code_list_number">800</span>
+        </div>
+        <button id="button_kline_main" style="position:absolute; left:80px">返回主页</button>
+        <button id="button_kline_table" style="position:absolute; left:140px">数据表格</button>
+        <button id="button_kline_scatter" style="position:absolute; left:230px">数据散点图</button>
+        <button id="button_kline_declare" style="position:absolute; left:350px">操作说明</button>
+        <button id="two_screen" style="position:absolute; left:540px">2窗口</button>
+        <button id="three_screen" style="position:absolute; left:600px">3窗口</button>
+        <button id="four_screen" style="position:absolute; left:660px">4窗口</button>
+        <button id="eight_screen" style="position:absolute; left:720px">8窗口</button>
+        <button id="table_kline_toggle" style="position:absolute; left:950px">显示表格</button>
+        <button id="table_cell_level" style="position:absolute; left:1100px">等级设置</button>
+        <label id="label_kline_common" style="position:absolute; right:100px">显示数据的长度
+            <select id="kline_common_select"></select>
+        </label>
+    </div>
+    <div id="navigator_curtain">
+        <div id="start_index" class="start_index">
+            <span  id="start_index_number" class="start_index_number">1</span>
+        </div>
+        <div id="navigator_option">
+            <span id="navigator_option_down" class="navigator_option_item">
+                <label id="navigator_option_label_down"></label>
+            </span>
+            <span id="navigator_option_up" class="navigator_option_item">
+                <label id="navigator_option_label_up"></label>
+            </span>
+            <span id="navigator_option_mine" class="navigator_option_item">
+                <label id="navigator_option_label_mine">Mine</label>
+            </span>
+        </div>
+        <div id="code_list">
+            <% for(var i=1; i<=20; i++) { %>
+            <div id=<%= "code_list_item" + i%> class="code_list_item" style="position:absolute; top:<%=(i-1)*5%>%">
+                <span id=<%= "code_list_item_name" + i%> class="code_list_item_name"></span>
+                <span id=<%= "code_list_item_code" + i%> class="code_list_item_code"></span>
+            </div>
+            <%} %>
+        </div>
+
+    </div>
+    <div id="data_curtain">
+        <div id="data_screen_curtain">
+            <% for(i=1; i<=8;i++) { %>
+            <div id=<%= "data_screen" + i%> class="data_screen">
+                <input id=<%="screen_share_name_" + i%> type="text"  class="screen_share_name" value="输入均衡">
+                <input id=<%="screen_share_code_" + i%> type="text"  class="screen_share_code" value="600189">
+                <button id=<%="add_" + i%> class="add_del_button" style="position:absolute; left:180px">ADD</button>
+                <button id=<%="del_" + i%> class="add_del_button" style="position:absolute; left:240px">DEL</button>
+                <input type="text" id=<%="gap_goal_"+i%> readonly="readonly"
+                       style="position:absolute; left:300px; top:3px; height:20px; width:260px; background-color:grey"
+                    value = "1 2 3; 2 3 4 5 6 7 8 9 3 10; 30 90 180 360">
+                <label style="position:absolute; right:100px" id=<%="label_kline_"+i%> >Len:
+                    <select id=<%="kline_select_"+i%>></select>
+                </label>
+                <label style="position:absolute; right:10px" id=<%="label_sync_"+i%> >Sync
+                    <input  id=<%="sync_radio_"+i%> type="radio" style="width: 25px; height:25px"/>
+                </label>
+                <div id=<%="k_line_graphic_" + i%> class="k_line_graphic" ></div>
+            </div>
+            <% } %>
+        </div>
+
+        <div id="waterfall_table_curtain" style="position:absolute; top:5px; left:5px;">
+            <table id="waterfall_table" class="waterfall_table_style" border="1">
+                <tr>
+                    <th id="th_name">name</th><th id="th_code">code</th>
+                    <th id="th_curr" class="available">curr</th><th id="th_avg" class="available">avg</th>
+                    <th id="th_min" class="available">min</th><th id="th_max" class="available">max</th>
+                    <th id="th_minR" class="available">minR</th><th id="th_avgR" class="available">avgR</th>
+                    <th id="th_maxR" class="available">maxR</th>
+                    <th id="th_day2"  class="available">day2</th><th id="th_day3" class="available">day3</th>
+                    <th id="th_day4"  class="available">day4</th>
+                    <th id="th_day5" class="available">day5</th>
+                    <th id="th_day6"  class="available">day6</th><th id="th_day7" class="available">day7</th>
+                    <th id="th_day8"  class="available">day8</th>
+                    <th id="th_day9"  class="available">day9</th><th id="th_day10" class="available">day10</th>
+                    <th id="th_day30"  class="available">day30</th><th id="th_day90" class="available">day90</th>
+                    <th id="th_day180" class="available">day180</th><th id="th_day360">day360</th>
+                </tr>
+                <% for(i=1;i<100;i++) { %>
+                <tr id=<%= "waterfall_tr" + i%>>
+                    <td id=<%= "waterfall_td_1_" + i%> style="background:#6765D6">10.01</td>
+                    <td id=<%= "waterfall_td_2_" + i%> style="background:#D66C57">10.01</td>
+                    <td id=<%= "waterfall_td_3_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_4_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_5_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_6_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_7_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_8_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_9_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_10_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_11_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_12_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_13_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_14_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_15_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_16_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_17_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_18_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_19_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_20_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_21_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_22_" + i%>>10.01</td>
+                </tr>
+                <% } %>
+            </table>
+        </div>
+        <div id="cell_level_config_curtain" style="position:absolute; top:5px; left:5px;">
+            <div id="config_first_row" style="position:absolute; top:10px; left:10px;">
+                <% for(i=1;i<8;i++){ var gap=25; var start=30%>
+                <div id=<%="table_config_day_" + i%> class="table_config_day" style="position:absolute; left:<%=10 + (i-1)*220%>px;">
+                    <label id=<%="label_config_day_" + i%> class="table_config_day">day2</label>
+                    <label id=<%="label_level1_" + i%>  for=<%="level1_" + i%> class="config_level_label"  style="position:absolute; top:<%=start%>px">level1
+                        <input type="text" id=<%="level1_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level2_" + i%>  for=<%="level2_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap%>px">level2
+                        <input type="text" id=<%="level2_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level3_" + i%>  for=<%="level3_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap*2%>px">level3
+                        <input type="text" id=<%="level3_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level4_" + i%>  for=<%="level4_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap*3%>px">level4
+                        <input type="text" id=<%="level4_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level5_" + i%>  for=<%="level5_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap*4%>px">level5
+                        <input type="text" id=<%="level5_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level6_" + i%>  for=<%="level6_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap*5%>px">level6
+                        <input type="text" id=<%="level6_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <button id="<%="button_confirm_day" + i%>" style="position:absolute; left:80px; bottom:10px" >确定</button>
+
+                </div>
+                <% } %>
+            </div>
+            <div id="config_second_row" style="position:absolute; top:350px; left:10px">
+                <% for(i=8;i<14;i++){ %>
+                <div id=<%="table_config_day_" + i%> class="table_config_day" style="position:absolute; left:<%=10 + (i-8)*220%>px;">
+                    <label id=<%="label_config_day_" + i%> class="table_config_day">day8</label>
+                    <label id=<%="label_level1_" + i%>  for=<%="level1_" + i%> class="config_level_label"  style="position:absolute; top:<%=start%>px">level1
+                        <input type="text" id=<%="level1_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level2_" + i%>  for=<%="level2_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap%>px">level2
+                        <input type="text" id=<%="level2_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level3_" + i%>  for=<%="level3_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap*2%>px">level3
+                        <input type="text" id=<%="level3_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level4_" + i%>  for=<%="level4_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap*3%>px">level4
+                        <input type="text" id=<%="level4_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level5_" + i%>  for=<%="level5_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap*4%>px">level5
+                        <input type="text" id=<%="level5_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <label id=<%="label_level6_" + i%>  for=<%="level6_" + i%> class="config_level_label"  style="position:absolute; top:<%=start+gap*5%>px">level6
+                        <input type="text" id=<%="level6_" + i%> class="config_level_input" style="position:absolute; top:0;">
+                    </label>
+                    <button id="<%="button_confirm_day" + i%>" style="position:absolute; left:80px; bottom:10px" >确定</button>
+                </div>
+                <% } %>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="option_list" class="option_list">
+        <% for(i=1; i<=34;i++) { %>
+        <div id=<%="option_item" + i%> class="option_item" style="position:absolute; top:<%=25*(i-1) + 2%>px">
+            <span id=<%= "option_item_name" + i%> class="option_item_name"></span>
+            <span id="<%= "option_item_sequence" + i%>" class="option_item_sequence"></span>
+        </div>
+        <% } %>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/start.css' />
+    <script type="text/javascript" src="./javascripts/start.js"></script>
+  </head>
+  <body onload="initMainPage()">
+  <div id="header_data" style="position:relative; width:100%; height:100px; background:black;">数据可视化
+      <span id="start_return_home" style="position:absolute; top:10px; right:20px; font-size:15px; font-weight:600; cursor:pointer">返回主页</span>
+  </div>
+  <div id="button_waterfall_table" style="position:relative; width:100%; background:#ceffa0" >
+      <label>数据表格</label>
+      <div id="img_waterfall_div" class="img_div">
+          <img id="img_waterfall" src="./images/table.jpg"/>
+          <span class="tooltiptext">点击进入</span>
+      </div>
+  </div>
+  <div id="button_table_newest" style="position:relative; width:100%; background:#ff7fdb">
+      <label>数据散点图</label>
+      <div id="img_table_div" class="img_div">
+          <img id="img_table" src="./images/scatter.jpg"/>
+          <span class="tooltiptext">点击进入</span>
+      </div>
+  </div>
+  <div id="button_kline_newest" style="position:relative; width:100%; background:#69ccff">
+      <label>数据K线图</label>
+      <div id="img_kline_div" class="img_div">
+          <img id="img_kline" src="./images/kline.jpg"/>
+          <span class="tooltiptext">点击进入</span>
+      </div>
+  </div>
+  </body>
+  <script type="text/javascript">
+      $(document).ready( function(){
+          changeElementWidth();
+      })
+
+      $(window).resize( function () {
+          changeElementWidth();
+      })
+
+      function changeElementWidth() {
+          $('#button_waterfall_table').css('height',parseInt($('#button_waterfall_table').css('width'))/4 + 'px');
+          $('#button_table_newest').css('height',parseInt($('#button_table_newest').css('width'))/4 + 'px');
+          $('#button_kline_newest').css('height',parseInt($('#button_kline_newest').css('width'))/4 + 'px');
+          $('#img_waterfall_div').css('height',parseInt($('#img_waterfall_div').css('width'))/3 + 'px');
+          $('#img_table_div').css('height',parseInt($('#img_table_div').css('width'))/3 + 'px');
+          $('#img_kline_div').css('height',parseInt($('#img_kline_div').css('width'))/3 + 'px');
+      }
+
+      $("#start_return_home").click( function () {
+          window.location.href='../guide';
+      });
+  </script>
+<style>
+    #header_data {
+        display: -webkit-flex; /* Safari */
+        justify-content: center;  /*指定水平居中*/
+        align-items:center;  /*指定垂直居中*/
+        margin: auto;
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    }
+    #button_waterfall_table, #button_table_newest, #button_kline_newest {
+
+    }
+    label {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 10px;
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+        font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    }
+    .img_div {
+        position:absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        margin:auto;
+        width: 50%;
+
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* 定位 */
+        position: absolute;
+        top: 40%;
+        right: -140px;
+        z-index: 1;
+    }
+    .img_div:hover .tooltiptext {
+        visibility: visible;
+    }
+</style>
+</html>

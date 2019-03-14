@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <script type="text/javascript" src="./javascripts/home.js"></script>
+</head>
+<body>
+<div style="position:absolute;">
+    <div id="welcome">
+        <img  id="img_first" src="./images/space.jpg"/>
+        <span class="header1">KevinHuang</span>
+        <span class="header2">生命的全部的意义在于无穷地探索尚未知道的东西</span>
+    </div>
+    <div id="sample_show">
+        <div id="image_sample"><img id="image_show" src="./images/show.jpg" style="width:700px; height:400px"/></div>
+        <div id="left_move" class="left_move_image"><span class="left_move_image_span"></span></div>
+        <div id="right_move" class="right_move_image"><span class="right_move_image_span"></span></div>
+        <div id="sample_content">
+            <label class="label_head">项目名称:
+                <label id="program_name" class="label_content"></label>
+            </label>
+            <label class="label_head">开发工具:
+                <label id="program_tool"  class="label_content"></label>
+            </label>
+            <label class="label_head">技术栈:
+                <label id="program_stack"  class="label_content"></label>
+            </label>
+            <label class="label_head">项目描述:
+                <label id="program_description"  class="label_content"></label>
+            </label>
+            <label class="label_head">操作演示:
+                <button id="display_operate" class="label_content">展开</button>
+            </label>
+        </div>
+    </div>
+    <div id="sample_display">
+        <div id="image_gif_sample"><img id="image_gif_show" src="./images/wait.gif" style="width:900px; height:460px"/></div>
+    </div>
+    <div id="sample_link">
+        <div id="digital_process" class="sample_link_div">
+            <div id="digital_process_img" class="sample_link_img"><img src="./images/digital_progress.jpg"/></div>
+            <div id="digital_process_text" class="sample_link_text">数字处理器</div>
+            <div id="digital_process_tip" class="sample_link_tip">点击进入</div>
+        </div>
+        <div id="data_viewer" class="sample_link_div">
+            <div id="data_viewer_img" class="sample_link_img"><img src="./images/data_viewer.jpg"/></div>
+            <div id="data_viewer_text" class="sample_link_text">数据可视化</div>
+            <div id="data_viewer_tip" class="sample_link_tip">点击进入</div>
+        </div>
+        <div id="in_progress1" class="sample_link_div">
+            <div id="in_progress1_img" class="sample_link_img"><img src="./images/axon.jpg"/></div>
+            <div id="in_progress1_text" class="sample_link_text">音序发生器UI(仿)</div>
+            <div id="in_progress1_tip" class="sample_link_tip">点击进入</div>
+        </div>
+        <div id="in_progress2" class="sample_link_div">
+            <div id="in_progress2_img" class="sample_link_img"><img src="./images/smart.jpg"/></div>
+            <div id="in_progress2_text" class="sample_link_text">智能家居(开发中)</div>
+            <div id="in_progress2_tip" class="sample_link_tip">点击进入</div>
+        </div>
+    </div>
+    <div id="contact_me">
+        <div style="width:1px; height:1px;"></div>
+        <div class="contact_header">联系我:</div>
+        <div class="contact qq">名字：黄志华</div>
+        <div class="contact qq">QQ: 1012956714</div>
+        <div class="contact wechat">微信: kevinschoice</div>
+        <div class="contact email">邮箱: kevinofhuang@163.com</div>
+    </div>
+</div>
+</body>
+<script>
+
+    function loadImage(url, callback) {
+        var img = new Image(); //创建一个Image对象，实现图片的预下载
+        img.onload = function(){
+            img.onload = null;
+            callback(img);
+        }
+        img.src = url;
+    }
+
+    function preloadShow() {
+        for (let i = 0; i < preloadShow.arguments.length; i++) {
+            showImage[i] = new Image();
+            showImage[i].src = preloadShow.arguments[i];
+        }
+    }
+
+    function preloadDisplay() {
+        for (let i = 0; i < preloadDisplay.arguments.length; i++) {
+            displayImage[i] = new Image();
+            displayImage[i].src = preloadDisplay.arguments[i];
+        }
+    }
+
+    var showImageIndex = 1;
+    var isShow = false;
+    var showImage = [];
+    var displayImage = [];
+    $(document).ready( function () {
+        showImageIndex = 0;
+        isShow = false;
+        setElementWidth();
+        $('.sample_link_tip').fadeOut();
+        $('#sample_display').slideUp('fast');
+        //refreshImageShow();
+        initLinstenner();
+
+        $('#program_name').text(sampleContentArray[0].name);
+        $('#program_tool').text(sampleContentArray[0].tool);
+        $('#program_stack').text(sampleContentArray[0].stack);
+        $('#program_description').text(sampleContentArray[0].description);
+
+        preloadShow('./images/show0.gif',
+            './images/show1.gif',
+            './images/show2.gif',
+            './images/show3.gif',
+            './images/show4.gif'
+        )
+        preloadDisplay('./images/display0.gif',
+            './images/display1.gif',
+            './images/display2.gif',
+            './images/display3.gif',
+            './images/display4.gif'
+        )
+    });
+
+    function initLinstenner() {
+        $('#digital_process_img').click( function () {
+            window.location.href = '../digital_process'
+        })
+
+        $('#data_viewer_img').click( function () {
+            window.location.href = '../start_page'
+        })
+
+        $('#in_progress1').click( function () {
+            window.location.href = '../axon02'
+        })
+
+        $('#in_progress2').click( function () {
+            // window.location.href = '../start_page'
+        })
+
+        $('#display_operate').click( function () {
+            isShow = !isShow
+            if (isShow) {
+                $('#sample_display').slideDown('slow');
+                $('#display_operate').text('关闭');
+                $('#image_gif_show').attr('src',"./images/display" + showImageIndex +".gif");
+            } else {
+                $('#sample_display').slideUp('slow');
+                $('#display_operate').text('展开');
+            }
+        })
+    }
+
+    $('#digital_process').hover( function () {
+       $('#digital_process_tip').fadeIn('slow');
+    }).mouseleave( function () {
+        $('#digital_process_tip').fadeOut('slow');
+    });
+
+    $('#data_viewer').hover( function () {
+        $('#data_viewer_tip').fadeIn('slow');
+    }).mouseleave( function () {
+        $('#data_viewer_tip').fadeOut('slow');
+    });
+
+    $('#in_progress1').hover( function () {
+        $('#in_progress1_tip').fadeIn('slow');
+    }).mouseleave( function () {
+        $('#in_progress1_tip').fadeOut('slow');
+    });
+
+    $(window).resize( function () {
+        setElementWidth();
+    });
+
+    function setElementWidth() {
+        $('#welcome').css('height', parseInt($('#welcome').css('width'))*(60/96) + 'px');
+        $('#sample_link').css('height', parseInt($('#sample_link').css('width'))/3 + 'px');
+        $('.sample_link_div').css('width', (parseInt($('#sample_link').css('width'))-80)/4 + 'px')
+        .css('height', parseInt($('#sample_link').css('height')) * 0.7 + 'px');
+        $('#image_sample').css('width', (parseInt($('#image_sample').css('height')) * 1.7) + 'px')
+        $('#image_gif_show').css('width', (parseInt($('#image_gif_show').css('height')) * 1.7) + 'px')
+    }
+
+
+    $('#left_move').click( function () {
+        showImageIndex--;
+        refreshImageShow();
+    });
+
+    $('#right_move').click( function () {
+        showImageIndex++;
+        refreshImageShow();
+    });
+
+    var sampleContent = {
+        digitalProcess: {
+            name: '音频数据处理器上位机(页面应用)',
+            tool: 'webstorm',
+            stack: 'HTML5 CSS javascript',
+            description: '打开浏览器，输入设备ip地址即可打开设备网页版的控制软件，然后连接设备，即可对设备参数进行设置和实时控制。' +
+            '使用浏览器作为容器，可以实现跨平台，window系统, 苹果的OS系统， linux系统都可运行。' +
+            '在桌面页面的基础上，能延伸设计出针对平板tablet和手机mobile的web app或hybrid app。'
+        },
+        kala: {
+            name: '卡拉OK处理器上位机',
+            tool: 'Visual Studio 6.0',
+            stack: 'C/C++',
+            description: '卡拉OK处理器上位机，与设备“卡拉OK处理器”通信，通过电脑方便直观的对设备参数进行设置和实时控制'
+        },
+        sequence: {
+            name: '时序器上位机',
+            tool: 'Visual Studio 6.0',
+            stack: 'C/C++',
+            description: '时序器上位机，与设备“时序器”通信，通过电脑方便直观的对设备参数进行设置和实时控制'
+        },
+        xDigital: {
+            name: '音频数据处理器上位机',
+            tool: 'Visual Studio 6.0',
+            stack: 'C/C++',
+            description: '音频数据处理器上位机，与设备“音频数据处理器”通信，通过电脑方便直观的对设备参数进行设置和实时控制'
+        },
+        xDigitalAndroid: {
+            name: '音频数据处理器上位机(android app)',
+            tool: 'android studio',
+            stack: '开发语言: java',
+            description: '音频数据处理器上位机，与设备“音频数据处理器”通信，通过手机方便直观的对设备参数进行设置和实时控制'
+        },
+    }
+
+    var sampleContentArray = [sampleContent.digitalProcess, sampleContent.kala, sampleContent.sequence,
+        sampleContent.xDigital, sampleContent.xDigitalAndroid];
+
+    function refreshImageShow(){
+        let length = sampleContentArray.length - 1;
+        if (showImageIndex > length) {
+            showImageIndex = 0;
+        }
+        if (showImageIndex < 0) {
+            showImageIndex = length;
+        }
+        // console.log('curImageIndex:' + showImageIndex);
+        // $('#image_show').attr('src',"./images/show" + showImageIndex +".png");
+        // $('#image_gif_show').attr('src',"./images/display" + showImageIndex +".gif");
+
+        if(showImage[showImageIndex].complete) {
+            // console.log('showImage:' + showImageIndex + ' loaded')
+            $('#image_show').attr('src',"./images/show" + showImageIndex +".gif");
+        } else {
+            console.log('showImage:' + showImageIndex + ' unload')
+            $('#image_show').attr('src','./images/wait.gif');
+        }
+
+        if(displayImage[showImageIndex].complete) {
+            // console.log('displayImage:' + showImageIndex + ' loaded')
+            $('#image_gif_show').attr('src',"./images/display" + showImageIndex +".gif");
+        } else {
+            // console.log('displayImage:' + showImageIndex + ' unload')
+            $('#display_gif_show').attr('src','./images/wait.gif');
+        }
+
+        $('#program_name').text(sampleContentArray[showImageIndex].name);
+        $('#program_tool').text(sampleContentArray[showImageIndex].tool);
+        $('#program_stack').text(sampleContentArray[showImageIndex].stack);
+        $('#program_description').text(sampleContentArray[showImageIndex].description);
+    }
+</script>
+
+<style>
+    . {
+        font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    }
+
+    .header1 {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+        font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    }
+    .header2 {
+        position: absolute;
+        top: 400px;
+        width: 100%;
+        display: -webkit-flex; /* Safari */
+        justify-content: center;  /*指定水平居中*/
+        /*align-items:center;  !*指定垂直居中*!*/
+        margin: auto;
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #welcome {
+        position: relative;
+        width: 100%
+    }
+
+    #img_first {
+        width: 100%;
+        height: 100%;
+    }
+
+    #sample_show {
+        position: relative;
+        margin-top: 5px;
+        width: 100%;
+        height: 500px;
+        background-color: #a3e5ff
+    }
+    #sample_display {
+        position: relative;
+        margin-top: 5px;
+        width: 100%;
+        height: 500px;
+        background-color: #a3e5ff
+    }
+
+    #image_sample {
+        position: absolute;
+        top: 10%;
+        left: 1%;
+        width: 60%;
+        height: 80%;
+        background-color: white;
+    }
+
+    #sample_content {
+        position: absolute;
+        top: 5%;
+        left: 68%;
+        width: 31%;
+        height: 90%;
+        background-color: #ffffff;
+    }
+
+    .label_head {
+        position: relative;
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 1.2em;
+        font-weight: 900;
+        color: #66a2a6;
+    }
+
+    .label_content {
+        position: relative;
+        display: inline-block;
+        word-wrap : break-word;
+        left: 15px;
+        width: 80%;
+        font-size: 0.8em;
+        font-weight: bold;
+        color: #2c3e50;
+    }
+
+    #image_gif_sample {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    #contact_me {
+        position: relative;
+        margin-top: 5px;
+        width: 100%;
+        height: 300px;
+        background-color: #2d3238
+    }
+
+    .right_move_image {
+        position: absolute;
+        top: 60%;
+        left: 62%;
+        height:40px;
+        width:40px;
+        display:block;
+    }
+
+    .right_move_image_span {
+        height:30px;
+    }
+
+    .right_move_image_span:before{
+        content:'';
+        height:0;
+        width:0;
+        display:block;
+        border:15px transparent solid;
+        border-right-width:0;
+        border-left-color: #b8ffc6;
+        position:absolute; top:0;
+        right:0;
+    }
+
+    .right_move_image_span:after{
+        content:'';
+        height:10px;
+        width:25px;
+        display:block;
+        background: #b8ffc6;
+        position:absolute;
+        top:10px; left:0;
+    }
+
+    .right_move_image_span:hover:before{
+        border-left-color:#2bb42c;
+    }
+
+    .right_move_image_span:hover:after {
+        background: #2bb42c;
+    }
+
+    .left_move_image_span:hover:before {
+        border-right-color:#2bb42c;
+    }
+
+    .left_move_image_span:hover:after {
+        background: #2bb42c;
+    }
+
+    .left_move_image{
+        position: absolute;
+        top: 40%;
+        left: 62%;
+        height:40px;
+        width:40px;
+        display:block;
+    }
+
+    .left_move_image_span{
+        height:30px;
+    }
+
+    .left_move_image_span:before{
+        content:'';
+        height:0;
+        width:0;
+        display:block;
+        border:15px transparent solid;
+        border-left-width:0;
+        border-right-color:#b8ffc6;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+
+    .left_move_image_span:after{
+        content:'';
+        height:10px;
+        width:25px;
+        display:block;
+        background:#b8ffc6;
+        position:absolute;
+        top:10px;
+        right:0;
+    }
+
+    #sample_link {
+        position: relative;
+        margin-top: 5px;
+        background-color: #ceffa0;
+        width: 100%;
+    }
+
+
+    .sample_link_div {
+        position: relative;
+        display: inline-block;
+        top: 20px;
+        left: 10px;
+        margin-left: 10px;
+        height: 20px;
+        background-color: white;
+    }
+
+    .sample_link_img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: calc(11/12*100%);
+    }
+
+    .sample_link_text {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: calc(1/12*100%);
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sample_link_tip {
+        position: absolute;
+        right: 10px;
+        bottom: 30px;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 1em;
+        font-weight: bolder;
+        color: black;
+        background-color: #ffa643;
+        border-radius: 5px;
+    }
+
+    .sample_link_tip:hover {
+        cursor: pointer;
+    }
+
+    .contact_header {
+        margin-top: 110px;
+        display: block;
+        margin-left: 50px;
+        font-size: 25px;
+        color: white;
+    }
+    .contact {
+        margin-top: 10px;
+        display: block;
+        margin-left: 90px;
+        font-size: 20px;
+        color: white;
+    }
+</style>
+</html>
+

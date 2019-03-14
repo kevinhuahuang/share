@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:width="http://www.w3.org/1999/xhtml" xmlns:top="http://www.w3.org/1999/xhtml">
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/waterfall_table.css' />
+    <script type="text/javascript" src="./javascripts/waterfall_table.js"></script>
+</head>
+<body onload="initMainPage()">
+
+<div id="main_curtain" >
+    <div id="tool_curtain" style="position:absolute; top:5px; left:20px; width:1500px; height: 30px">
+        <label id="label_gap" style="position:absolute; left:10px">GAP
+            <select id="gap_select"></select>
+        </label>
+        <label id="label_min" style="position:absolute; left:120px">MIN
+            <select id="min_select"></select>
+        </label>
+        <button id="table_sequence" style="position:absolute; left:250px">最小值--></button>
+        <button id="button_table_declare" style="position:absolute; left:350px">使用说明</button>
+        <button id="button_table_main" style="position:absolute; left: 550px">返回主页</button>
+        <button id="button_table_scatter" style="position:absolute; left:650px">散点图</button>
+        <button id="button_table_kline" style="position:absolute; left:750px">K线图</button>
+    </div>
+    <div id="data_curtain">
+        <div id="waterfall_table_curtain" style="position:absolute; top:60px; left:5px;">
+            <table id="waterfall_table" class="waterfall_table_style" border="1">
+                <tr>
+                    <th id="th_name">name</th><th id="th_code">code</th><th id="th_start" style="width:70px;">startDate</th><th id="th_end">endDate</th>
+                    <th id="th_pre30" class="available">pre30</th><th id="th_pre90" class="available">pre90</th> <th id="th_pre180" class="available">pre180</th>
+                    <th id="th_pre360" class="available">pre360</th><th id="th_pre500" class="available">pre500</th>
+                    <th id="th_curr">curr</th><th id="th_continuous">counts</th>
+                    <th id="th_minR"  class="available">minRate</th><th id="th_avgR"  class="available">avgRate</th><th id="th_maxR"  class="available">maxRate</th>
+                    <th id="th_sum_rate" class="available">sumRate</th><th id="th_sum3" class="available">rate_sum3</th>
+                    <th id="th_sum5" class="available">rate_sum5</th><th id="th_sum10" class="available">rate_sum10</th>
+                    <th id="th_sum20" class="available">rate_sum20</th><th id="th_sum30" class="available">rate_sum30</th>
+                    <th id="th_sum60" class="available">rate_sum60</th><th id="th_sum90" class="available">rate_sum90</th>
+                </tr>
+                <% for(var i=1;i<100;i++) { %>
+                <tr id=<%= "waterfall_tr" + i%>>
+                    <td id=<%= "waterfall_td_1_" + i%> style="background:#6765D6">10.01</td>
+                    <td id=<%= "waterfall_td_2_" + i%> style="background:#D66C57">10.01</td>
+                    <td id=<%= "waterfall_td_3_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_4_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_5_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_6_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_7_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_8_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_9_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_10_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_11_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_12_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_13_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_14_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_15_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_16_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_17_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_18_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_19_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_20_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_21_" + i%>>10.01</td>
+                    <td id=<%= "waterfall_td_22_" + i%>>10.01</td>
+                </tr>
+                <% } %>
+            </table>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>

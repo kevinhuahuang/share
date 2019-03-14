@@ -1,0 +1,44 @@
+
+[
+    {
+        "url":"/building",
+        "data_stat_aid":"AA21160",
+        "data_stat_pid":"2_15_1_67",
+        "data_log_code":"31pchometop_slide001001#t=normal&act=other&page=home&bid=3030335.1&adm=5725",
+        "img":"/images/main/slider/xmad_15427030629034_vRria.jpg",
+        "img_2x":"/images/main/slider/xmad_15427030673006_kxsPA.jpg 2x"
+    },
+    {
+        "url":"/building",
+        "data_stat_aid":"AA21163",
+        "data_stat_pid":"2_15_2_68",
+        "data_log_code":"31pchometop_slide002001#t=normal&act=other&page=home&bid=3030335.2&adm=5595",
+        "img":"/images/main/slider/xmad_1542696388857_mecak.jpg",
+        "imgHd":"/images/main/slider/xmad_15426963940218_gGAiM.jpg"
+    },
+    {
+        "url":"/building",
+        "data_stat_aid":"AA21162",
+        "data_stat_pid":"2_15_3_69",
+        "data_log_code":"31pchometop_slide003001#t=normal&act=other&page=home&bid=3030335.3&adm=5715",
+        "img":"/images/main/slider/xmad_1542593050318_TVIrS.jpg",
+        "imgHd":"/images/main/slider/xmad_15425931208271_yKAHi.jpg"
+    },
+    {
+        "url":"/building",
+        "data_stat_aid":"AA21164",
+        "data_stat_pid":"2_15_4_70",
+        "data_log_code":"31pchometop_slide004001#t=normal&act=other&page=home&bid=3030335.4&adm=5724",
+        "img":"/images/main/slider/xmad_15426324867008_HBafZ.jpg",
+        "imgHd":"/images/main/slider/xmad_15426324927986_JhfvI.jpg"
+    },
+    {
+        "url":"/building",
+        "data_stat_aid":"AA21003",
+        "data_stat_pid":"2_15_5_72",
+        "data_log_code":"31pchometop_slide005001#t=normal&act=other&page=home&bid=3030335.5&adm=5410",
+        "img":"/images/main/slider/xmad_154243845425_IRSdh.jpg",
+        "imgHd":"/images/main/slider/xmad_15424384618875_xqQTp.jpg"
+    }
+]
+

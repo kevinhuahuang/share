@@ -1,6 +1,8 @@
 var express = require('express');
+var async = require("async");
 var router = express.Router();
 var shareData = require('../lib/calculate_share_data/index');
+var kLineData = require('../lib/query_k_line_data');
 
 
 
@@ -13,10 +15,33 @@ router.get('/', function(req, res, next) {
 
 
 router.post('/shareList',function(req, res, next){
-    //console.log(req.body.data);
+    console.log("index:" + req.body.data);
     //res.send(req.body.data);
     distributeShareList(req.body.data, res);
 });
+
+
+router.post('/kLineData', function(req, res, next){
+    // console.log(req.body.data);
+    // kLineData.queryData(req.body.data);
+    // res.send('11');
+
+    async.waterfall([
+        function(callback){
+            kLineData.queryData(req.body.data, callback);
+        }
+
+    ],function(err, result){
+        if(err){
+            console.log('query KLineData fail');
+        }else{
+            res.send(kLineData.kLineData);
+        }
+
+    })
+
+});
+
 
 
 function distributeShareList(type, res){

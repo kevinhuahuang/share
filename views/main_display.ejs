@@ -6,6 +6,9 @@
     <script type="text/javascript" src="./javascripts/main_display.js"></script>
   </head>
   <body onload="initMainPage()">
+  <button id="button_waterfall_table" style="position:absolute; top:3px; left:80px">table</button>
+  <button id="button_table_newest" style="position:absolute; top:3px; left:150px">newTable</button>
+  <button id="button_kline_newest" style="position:absolute; top:3px; left:220px">newKline</button>
   <div id="main_curtain" >
     <div id="navigator_curtain">
       <div id="start_index" class="start_index">
@@ -34,7 +37,11 @@
     </div>
     <div id="data_display_curtain">
       <div id="main" style="width: 600px;height:400px;"></div>
-        <span id="list_item_counts" >800</span>
+      <span id="list_item_counts" >800</span>
+      <button id="test_button1">TEST1</button>
+      <button id="test_button2">TEST2</button>
+      <div id="k_line_graphic" class="k_line_graphic" ></div>
+      <div id="k_line_graphic_long" class="k_line_graphic_long"></div>
     </div>
     <div id="option_mix_list" class="option_mix_list">
       <% for(i=1; i<=34;i++) { %>

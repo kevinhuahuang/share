@@ -512,6 +512,48 @@ function mixDataArray(dataArray) { //parameter
     mixDataArray(dataArray);
 
 }
+
+function mixCodeListArray(dataArray) { //parameter
+    var i,j,t;
+    //var arrayMix = [];
+    //console.log('dataArray.length:' + dataArray.length);
+    if (dataArray.length <= 1) {
+        codeListArray = deepCopy(dataArray[0]);
+        //console.log(codeListArray.length);
+        //console.log("only one length:" + arrayMix);
+       // return arrayMix;
+        return true;
+    }
+
+
+    var firstArray = dataArray[0];
+    var secondArray = dataArray[1];
+    var tempMix = [];
+
+    // for(i=0;i<30;i++){
+    //     console.log(firstArray[i] + ' : ' + secondArray[i]);
+    // }
+    for(i=0; i<firstArray.length; i++){
+        for(j=0; j<secondArray.length; j++){
+            if(firstArray[i][0]===secondArray[j][0]){
+                var tempArray = [];
+                for(t=0; t<firstArray[i].length; t++){
+                    tempArray.push(firstArray[i][t]);
+                }
+                tempArray.push(secondArray[j][2]);
+                tempMix.push(tempArray);
+                //console.log(firstArray[i][0] + ' = ' + secondArray[j][0] + ' is  same');
+            }
+        }
+    }
+
+    dataArray.shift();
+    dataArray.shift();
+    dataArray.unshift(tempMix);
+    //console.log("more than one"  + arrayMix.length);
+    mixCodeListArray(dataArray);
+
+}
 // var optionName =[
 //
 //     //NO_1: minRate
@@ -635,3 +677,20 @@ function mixDataArray(dataArray) { //parameter
 
 
 
+//===========================================================================================
+function deepCopy(obj) {
+    var str, newObj;
+    newObj = obj.constructor === Array ? [] : {};
+
+    if(typeof obj !== 'object') {
+        return;
+    } else if (window.JSON) {
+        str = JSON.stringify(obj);  //系列化对象
+        newObj = JSON.parse(str);
+    } else {
+        for (var i in obj){
+            newObj[i] = typeof obj[i] === 'objcet' ? deepCopy(obj[i]) : obj[i];
+        }
+    }
+    return newObj;
+}

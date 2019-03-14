@@ -1,0 +1,372 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #E4E4E4;
+}
+
+#main_curtain {
+    position: absolute;
+    top: 10px;
+    left:20px;
+    width: 1850px;
+    height: 900px;
+    background-color: #E4E4E4;
+}
+
+
+/***************************************************navigator_start
+ navigator */
+#navigator_curtain {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 100px;
+    height: 740px;
+    background-color: #E4E4E4;
+    border:2px solid #B1B1B1;
+    border-radius: 10px;
+}
+
+
+.start_index {
+    position: absolute;
+    top: 15px;
+    left: 1px;
+    width: 25px;
+    height: 18px;
+    border: 2px solid #B1B1B1;
+    border-radius: 3px;
+}
+
+.code_list_counts {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width: 58px;
+    height: 18px;
+    border: 2px solid #B1B1B1;
+    border-radius: 3px;
+}
+
+.start_index_number{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-weight: 900;
+    color: blue;
+}
+
+.code_list_number  {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-weight: 900;
+    color: red;
+}
+
+
+#navigator_option {
+    position: absolute;
+    top: 80px;
+    width: 30px;
+    height: 700px;
+    background-color: #B1B1B1
+}
+
+
+
+.navigator_option_item {
+    position: absolute;
+    top: 30px;
+    left: 2px;
+    width: 26px;
+    height: 80px;
+    border: 1px;
+    background-color: #E4E4E4;
+}
+
+.navigator_option_item:before {
+    position: absolute;
+    top: -30px;
+    content: '';
+    border: 13px transparent solid;
+    border-top-width: 30px;
+    border-bottom-width: 0;
+    border-left-color: #E4E4E4;
+    border-right-color: #E4E4E4;
+    color: white;
+}
+
+.navigator_option_item:after {
+    position: absolute;
+    content: '';
+    top: 80px;
+    border: 13px transparent solid;
+    border-top: 30px solid #E4E4E4;
+    border-bottom-width: 0;
+    color: white;
+}
+
+
+#navigator_option_label_down, #navigator_option_label_up, #navigator_option_label_mine {
+    position: absolute;
+    top: 30px;
+    left: -5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    color: #76d536;
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+#navigator_option_label_up {
+    top: 30px;
+    left: 2px;
+}
+
+
+#navigator_option_label_down{
+    top: 270px;
+    left: -9px;
+}
+
+
+
+#navigator_option_up {
+    top: 150px;
+}
+
+#navigator_option_mine {
+    top: 30px;
+}
+
+#code_list {
+    position: absolute;
+    left:33px;
+    width:70px;
+    height:100%;
+}
+
+.code_list_item {
+    position: absolute;
+    margin-top: 3px;
+    width:63px;
+    height:33px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: #E4E4E4;
+    text-align: center;
+}
+
+.code_list_item_name {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    color: #00b7ff;
+}
+
+.code_list_item_code {
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-weight: 900;
+    color: #7879ff;
+}
+
+/***************************************************navigator_end
+
+***************************************************data_display_start
+data_display*/
+
+#data_curtain {
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 120px;
+    width: 1700px;
+    height: 870px;
+    border:  2px solid #B1B1B1;
+    border-radius: 5px;
+}
+
+
+.data_screen {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 1500px;
+    height: 300px;
+    border:  2px solid #B1B1B1;
+    border-radius: 5px;
+}
+
+.screen_share_code {
+    position: absolute;
+    top: 3px;
+    left: 100px;
+    width:  60px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    border:  2px solid #B1B1B1;
+    border-radius: 5px;
+    color: grey;
+}
+
+.screen_share_name {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width:  80px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    border:  2px solid #B1B1B1;
+    border-radius: 5px;
+    color: grey;
+}
+
+
+
+.k_line_graphic{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #82b16d;
+    border-radius: 5px;
+}
+
+
+
+#test_button1 {
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    width:  60px;
+    height: 20px;
+}
+
+#test_button2 {
+    position: absolute;
+    top: 3px;
+    left: 140px;
+    width:  60px;
+    height: 20px;
+}
+/***************************************************data_display_end
+***************************************************data_condition_start
+data_condition*/
+.option_list {
+    position:absolute;
+    content: '';
+    top: 40px;
+    left: 1650px;
+    width: 150px;
+    height: 850px;
+    border-radius: 5px;
+    border:  2px solid #B1B1B1;
+}
+
+.option_item{
+    position:absolute;
+    width:  140px;
+    height: 20px;
+    left: 2px;
+    border:  1px solid #B1B1B1;
+    border-radius: 3px;
+}
+
+.option_item_name {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: grey;
+}
+
+.option_item_sequence {
+    position: absolute;
+    top: 2px;
+    left: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+
+/***************************************************
+***************************************************
+table*/
+.waterfall_table_style{
+    width: 200px;
+    min-height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th {
+    min-width: 60px;
+    color: #0968d6;
+    background-color: yellow;
+}
+
+
+.table_config_day {
+    width: 180px;
+    height: 300px;
+    border: 1px solid grey;
+}
+
+
+.config_level_input {
+    position:absolute;
+    left: 40px;
+    width: 60px;
+    height: 15px;
+    text-align: center;
+}
+
+.config_level_label {
+    position:absolute;
+    left: 5px;
+}
+
+/***************************************************
+***************************************************
+kline*/
+.add_del_button {
+    top: 3px;
+    width: 45px;
+    height: 25px;
+}
+
+.gap_goal{
+    width: 120px;
+    height: 25px;
+}
+
+.available {
+    background-color:#84FF6D
+}

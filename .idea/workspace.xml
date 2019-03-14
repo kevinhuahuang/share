@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c931c899-d519-4a0f-a29c-c7db82c9afb6" name="Default" comment="delete csv files">
+      <change afterPath="$PROJECT_DIR$/lib/query_k_line_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/calculate_share_data/calculate_share_max_min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/calculate_share_data/calculate_share_max_min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/calculate_share_data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/calculate_share_data/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/calculate_share_data/share_change_rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/calculate_share_data/share_change_rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/calculate_share_data/share_close_max_min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/calculate_share_data/share_close_max_min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/calculate_share_data/share_exchange_rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/calculate_share_data/share_exchange_rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/config" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_daily_data_file.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_daily_data_file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_name_code_date.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_name_code_date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_range_daily_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_range_daily_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_today_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_today_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/fetchRangeDailyDataFileCode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/fetchRangeDailyDataFileCode.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/fetchRangeDailyDataFileRecord.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/fetchRangeDailyDataFileRecord.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/fetchShareDateError.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/fetchShareDateError.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/fetchShareTodayDataError.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/fetchShareTodayDataError.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/shareName&amp;Code&amp;Date.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/shareName&amp;Code&amp;Date.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/shareName&amp;code.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/run_record/shareName&amp;code.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/write_share_daily_date_to_mysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetch_daily_data_form_163/write_share_daily_date_to_mysql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arguments-extended/atlassian-ide-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/arguments-extended/atlassian-ide-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/LICENCE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/LICENCE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/doc/API.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/doc/API.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/declare.js/atlassian-ide-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/declare.js/atlassian-ide-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extended/atlassian-ide-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-extended/atlassian-ide-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-extended/atlassian-ide-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-extended/atlassian-ide-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/node_modules/.bin/mime.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/superagent/node_modules/.bin/mime.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/superagent/superagent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/superagent/superagent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/main_display.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/main_display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/main_display.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/main_display.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main_display.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/main_display.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/test.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/test.ejs" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="millet.js" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/routes/millet.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="437">
+                    <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guide.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/guide.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="130" selection-start-column="130" selection-end-column="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cellphone.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/cellphone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ejs" />
+        <option value="EJS" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>deviceIp</find>
+      <find>open</find>
+      <find>button_set</find>
+      <find>xmlHttp</find>
+      <find>ajaxTimer</find>
+      <find>192.168</find>
+      <find>abT</find>
+      <find>request</find>
+      <find>startAjaxTimer</find>
+      <find>getHttpRequest</find>
+      <find>requestData</find>
+      <find>startAjaxTimerServer</find>
+      <find>strBeReceive</find>
+      <find>start</find>
+      <find>100</find>
+      <find>communicateSpeed</find>
+      <find>option_item</find>
+      <find>share</find>
+      <find>fetchDailyData</find>
+      <find>.csv</find>
+      <find>.get</find>
+      <find>http</find>
+      <find>readFile</find>
+      <find>writeFile</find>
+      <find>csv</find>
+      <find>waterfall</find>
+      <find>waterfallDay2</find>
+      <find>exchangeFourYearRateTop800</find>
+      <find>../public/json/main/content.json</find>
+      <find>../public/json/commodity.json</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Desc</replace>
+      <replace>rate_sum</replace>
+      <replace>15</replace>
+      <replace>scatter_echart</replace>
+      <replace>add(new Option(</replace>
+      <replace>+i).add</replace>
+      <replace>));</replace>
+      <replace>#y</replace>
+      <replace>gap +  ',' + min</replace>
+      <replace>scatter</replace>
+      <replace>kline</replace>
+      <replace>margin-top: 5px;</replace>
+      <replace>src=/javascripts/</replace>
+      <replace>src=./javascripts/dp7/</replace>
+      <replace>./javascripts/axon02</replace>
+      <replace>jpg</replace>
+      <replace>display</replace>
+      <replace>./json/</replace>
+      <replace>router</replace>
+      <replace>../public/json/</replace>
+      <replace>./images/millet/</replace>
+      <replace>&quot;./images</replace>
+      <replace>src='.</replace>
+      <replace>src='./javascripts/dip7</replace>
+      <replace>src='./javascripts/dp7</replace>
+      <replace>./images</replace>
+      <replace>others</replace>
+      <replace>send</replace>
+      <replace>json</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\workspace\share\views</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/json/main/hotcommend.json" />
+        <option value="$PROJECT_DIR$/public/json/main/household.json" />
+        <option value="$PROJECT_DIR$/public/json/main/match.json" />
+        <option value="$PROJECT_DIR$/public/json/main/package.json" />
+        <option value="$PROJECT_DIR$/public/json/main/parts.json" />
+        <option value="$PROJECT_DIR$/public/json/main/recommend.json" />
+        <option value="$PROJECT_DIR$/public/json/main/related.json" />
+        <option value="$PROJECT_DIR$/public/json/main/smart.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/cellphone.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/children.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/dress.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/headphone.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/household.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/notepad.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/power.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/router.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/suitcase.json" />
+        <option value="$PROJECT_DIR$/public/json/right_list/television.json" />
+        <option value="$PROJECT_DIR$/public/json/commodity.json" />
+        <option value="$PROJECT_DIR$/public/javascripts/millet/app.e28730d62e47728a93ad.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/guide/app.16652b66c597f6e03417.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/others/app.a588ac25e25b18a1556d.js" />
+        <option value="$PROJECT_DIR$/views/guide.ejs" />
+        <option value="$PROJECT_DIR$/views/millet.ejs" />
+        <option value="$PROJECT_DIR$/views/others.ejs" />
+        <option value="$PROJECT_DIR$/views/resume.ejs" />
+        <option value="$PROJECT_DIR$/lib/query_table_data.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/resume/app.7cb5364e669c0d505850.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/routes/millet.js" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/millet [2].js" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/millet [4].js" />
+        <option value="$PROJECT_DIR$/public/javascripts/millet/app.e2302f3248337ff618ac.js" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/app.e2302f3248337ff618ac [2].js" />
+        <option value="$PROJECT_DIR$/views/start.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/axon02/app.090d8d1b9889580cf948.js" />
+        <option value="$PROJECT_DIR$/views/axon02.ejs" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/app.b78f39aba6be9c18fbb6.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/dp7/button_operate.js" />
+        <option value="$PROJECT_DIR$/routes/dp8.js" />
+        <option value="$PROJECT_DIR$/views/dp7.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/dp7/ajax_communicate.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/dp7/main_dp7.js" />
+        <option value="$PROJECT_DIR$/views/dp8.ejs" />
+        <option value="$PROJECT_DIR$/routes/dp7.js" />
+        <option value="$PROJECT_DIR$/lib/fetch_daily_data_form_163/index.js" />
+        <option value="$PROJECT_DIR$/lib/calculate_share_data/index.js" />
+        <option value="$PROJECT_DIR$/lib/calculate_share_data/share_close_max_min.js" />
+        <option value="$PROJECT_DIR$/routes/building.js" />
+        <option value="$PROJECT_DIR$/routes/main.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="501" />
+    <option name="y" value="49" />
+    <option name="width" value="1409" />
+    <option name="height" value="981" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="calculate_share_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="fetch_daily_data_form_163" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.11.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../millet" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\share\public\json" />
+      <recent name="E:\workspace\share\views" />
+      <recent name="E:\workspace\share\routes" />
+      <recent name="E:\workspace\share\public\stylesheets\axon02" />
+      <recent name="E:\workspace\share\public\javascripts\axon02" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.bin/www">
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/lib/calculate_share_data" />
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/lib/fetch_daily_data_form_163" />
+    <configuration name="write_share_daily_date_to_mysql.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="write_share_daily_date_to_mysql.js" working-dir="$PROJECT_DIR$/lib/fetch_daily_data_form_163" />
+    <list>
+      <item itemvalue="Node.js.bin/www" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.index.js (1)" />
+      <item itemvalue="Node.js.write_share_daily_date_to_mysql.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js (1)" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.write_share_daily_date_to_mysql.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c931c899-d519-4a0f-a29c-c7db82c9afb6" name="Default" comment="" />
+      <created>1519531483310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519531483310</updated>
+      <workItem from="1519531497408" duration="26000" />
+      <workItem from="1519531623159" duration="72000" />
+      <workItem from="1519531748006" duration="1295000" />
+      <workItem from="1519539247938" duration="17140000" />
+      <workItem from="1519604574327" duration="24921000" />
+      <workItem from="1519691043396" duration="5202000" />
+      <workItem from="1519697566221" duration="19669000" />
+      <workItem from="1519778027110" duration="13236000" />
+      <workItem from="1519798383394" duration="3809000" />
+      <workItem from="1519802226634" duration="8860000" />
+      <workItem from="1519864653215" duration="11592000" />
+      <workItem from="1519878274356" duration="359000" />
+      <workItem from="1519884731192" duration="13444000" />
+      <workItem from="1519951212198" duration="20363000" />
+      <workItem from="1520210627678" duration="13212000" />
+      <workItem from="1520230309298" duration="4808000" />
+      <workItem from="1520235469753" duration="7575000" />
+      <workItem from="1520296430811" duration="2456000" />
+      <workItem from="1520299347246" duration="11233000" />
+      <workItem from="1520316439855" duration="14390000" />
+      <workItem from="1520382986959" duration="12371000" />
+      <workItem from="1520403351318" duration="13422000" />
+      <workItem from="1520469594988" duration="12371000" />
+      <workItem from="1520489356288" duration="14086000" />
+      <workItem from="1520554731880" duration="13455000" />
+      <workItem from="1520575178901" duration="12774000" />
+      <workItem from="1520641807832" duration="12890000" />
+      <workItem from="1520662180423" duration="13450000" />
+      <workItem from="1520814589144" duration="14255000" />
+      <workItem from="1520835352211" duration="11752000" />
+      <workItem from="1520901527556" duration="26714000" />
+      <workItem from="1520987358111" duration="27174000" />
+      <workItem from="1521073975640" duration="12419000" />
+      <workItem from="1521094190969" duration="4647000" />
+      <workItem from="1521160929464" duration="2700000" />
+      <workItem from="1521171454027" duration="3353000" />
+      <workItem from="1521180346182" duration="12962000" />
+      <workItem from="1521246115493" duration="2497000" />
+      <workItem from="1521421108402" duration="12086000" />
+      <workItem from="1521439702627" duration="13949000" />
+      <workItem from="1521508076123" duration="132000" />
+      <workItem from="1521510034868" duration="7692000" />
+      <workItem from="1521525957826" duration="12093000" />
+      <workItem from="1522230789438" duration="629000" />
+      <workItem from="1522284239485" duration="69000" />
+      <workItem from="1522284353810" duration="6190000" />
+      <workItem from="1522294776308" duration="207000" />
+      <workItem from="1522295079644" duration="36000" />
+      <workItem from="1522295146806" duration="5389000" />
+      <workItem from="1522370621731" duration="10162000" />
+      <workItem from="1522457286072" duration="7049000" />
+      <workItem from="1522478317383" duration="6727000" />
+      <workItem from="1522801430349" duration="39905000" />
+      <workItem from="1522890349695" duration="17874000" />
+      <workItem from="1522911173375" duration="654000" />
+      <workItem from="1522912035533" duration="13942000" />
+      <workItem from="1522969476788" duration="7610000" />
+      <workItem from="1522995676071" duration="9269000" />
+      <workItem from="1523009337167" duration="3386000" />
+      <workItem from="1523063049569" duration="8190000" />
+      <workItem from="1523082756337" duration="14181000" />
+      <workItem from="1523147821781" duration="28437000" />
+      <workItem from="1523192547386" duration="8970000" />
+      <workItem from="1523235028284" duration="27936000" />
+      <workItem from="1523319660944" duration="28217000" />
+      <workItem from="1523407532394" duration="27436000" />
+      <workItem from="1523493290940" duration="26822000" />
+      <workItem from="1523577313928" duration="31166000" />
+      <workItem from="1523664902582" duration="15305000" />
+      <workItem from="1523697880109" duration="229000" />
+      <workItem from="1523836271683" duration="22208000" />
+      <workItem from="1523925765575" duration="2794000" />
+      <workItem from="1524057595150" duration="673000" />
+      <workItem from="1524098184642" duration="281000" />
+      <workItem from="1524187265561" duration="2242000" />
+      <workItem from="1527561224661" duration="3766000" />
+      <workItem from="1527565316498" duration="4274000" />
+      <workItem from="1527575805678" duration="10224000" />
+      <workItem from="1527639829353" duration="27034000" />
+      <workItem from="1527726812989" duration="22028000" />
+      <workItem from="1527821436950" duration="5750000" />
+      <workItem from="1527900270962" duration="6012000" />
+      <workItem from="1528073652191" duration="1556000" />
+      <workItem from="1528688925005" duration="1877000" />
+      <workItem from="1528707708833" duration="1782000" />
+      <workItem from="1528765611750" duration="5641000" />
+      <workItem from="1528775647172" duration="4922000" />
+      <workItem from="1528788860706" duration="2287000" />
+      <workItem from="1528792096079" duration="5695000" />
+      <workItem from="1528850231689" duration="2534000" />
+      <workItem from="1528854603992" duration="6775000" />
+      <workItem from="1528862424266" duration="1772000" />
+      <workItem from="1528874783563" duration="4642000" />
+      <workItem from="1528883103215" duration="2029000" />
+      <workItem from="1528935902086" duration="15942000" />
+      <workItem from="1529025323330" duration="8351000" />
+      <workItem from="1529109526600" duration="6462000" />
+      <workItem from="1534559863871" duration="113000" />
+      <workItem from="1536542244233" duration="7073000" />
+      <workItem from="1536741152287" duration="739000" />
+      <workItem from="1536798805489" duration="1980000" />
+      <workItem from="1537273820408" duration="459000" />
+      <workItem from="1537427021018" duration="2449000" />
+      <workItem from="1537437248168" duration="769000" />
+      <workItem from="1537513524212" duration="12086000" />
+      <workItem from="1537578595229" duration="12379000" />
+      <workItem from="1537661589601" duration="11624000" />
+      <workItem from="1537919966079" duration="5450000" />
+      <workItem from="1537926080242" duration="1339000" />
+      <workItem from="1540976111810" duration="3464000" />
+      <workItem from="1541034801414" duration="6327000" />
+      <workItem from="1541130933411" duration="1447000" />
+      <workItem from="1541472279005" duration="169000" />
+      <workItem from="1541472566730" duration="12759000" />
+      <workItem from="1542267377905" duration="5257000" />
+      <workItem from="1542339475876" duration="1917000" />
+      <workItem from="1542414912800" duration="1204000" />
+      <workItem from="1542588405172" duration="1232000" />
+      <workItem from="1542674974585" duration="610000" />
+      <workItem from="1542768897976" duration="1829000" />
+      <workItem from="1542847050403" duration="2952000" />
+      <workItem from="1542932825707" duration="1202000" />
+      <workItem from="1543808455142" duration="2133000" />
+      <workItem from="1544443984662" duration="854000" />
+      <workItem from="1547026996918" duration="969000" />
+      <workItem from="1547080503259" duration="606000" />
+      <workItem from="1547083255903" duration="3516000" />
+      <workItem from="1547706636951" duration="999000" />
+      <workItem from="1547719422366" duration="780000" />
+      <workItem from="1547771909170" duration="1654000" />
+      <workItem from="1547781442553" duration="1435000" />
+      <workItem from="1547858009705" duration="599000" />
+      <workItem from="1548030897352" duration="4226000" />
+      <workItem from="1548320133065" duration="1229000" />
+      <workItem from="1551408911485" duration="771000" />
+      <workItem from="1551943504632" duration="4074000" />
+      <workItem from="1551952433885" duration="1428000" />
+      <workItem from="1552008483589" duration="7089000" />
+      <workItem from="1552289304687" duration="1095000" />
+      <workItem from="1552371971680" duration="2046000" />
+      <workItem from="1552466138224" duration="3087000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1521184660119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521184660119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delete csv files">
+      <created>1521186924783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521186924783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1123865000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="501" y="49" width="1409" height="981" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18234865" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.22911964" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50509554" side_tool="true" weight="0.15911601" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32844242" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.25514874" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49490446" visible="true" weight="0.24763033" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24920887" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49490446" weight="0.3611738" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39889503" />
+      <window_info anchor="bottom" id="TypeScript" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32977462" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12941177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24920887" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.22983426" />
+      <window_info anchor="bottom" id="TypeScript" order="1" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49490446" visible="true" weight="0.25027686" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39889503" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49490446" weight="0.2015504" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50509554" side_tool="true" weight="0.15911601" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.25514874" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32977462" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="test" />
+    <MESSAGE value="delete csv files" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete csv files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/dp7/main_dp7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15618">
+          <caret line="822" column="29" selection-start-line="822" selection-start-column="29" selection-end-line="822" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dp8.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/waterfall.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/json/main/cellphone.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_today_data.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/share_exchange_rate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/share_waterfall.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/share_waterfall_newest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_range_daily_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/write_share_daily_date_to_mysql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="122" column="56" selection-start-line="122" selection-start-column="56" selection-end-line="122" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/digital_process.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dp8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/guide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/home.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/instruction.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/others.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/resume.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/start.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/waterfall.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dp7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/calculate_waterfall_smallgap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2014">
+          <caret line="106" column="38" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/publicVariable.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/share_user_operate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/waterfall_table.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/waterfall_table.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/query_k_line_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/query_table_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" selection-start-line="38" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/run_record/calculate_max_min_record.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/share_change_rate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_daily_data_file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/fetch_daily_data_form_163/fetch_share_name_code_date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/share_close_max_min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12540">
+          <caret line="660" column="46" selection-start-line="660" selection-start-column="46" selection-end-line="660" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/waterfall_table_mysql.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/calculate_share_data/calculate_share_max_min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64239">
+          <caret line="3381" column="34" selection-start-line="3381" selection-start-column="8" selection-end-line="3381" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/waterfall_table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/waterfall_chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/axon02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/building.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/axon02.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/building.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/json/kind/life.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/guide.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="130" selection-start-column="130" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="65" column="47" lean-forward="true" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/millet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/cellphone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

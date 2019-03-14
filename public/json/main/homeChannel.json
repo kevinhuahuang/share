@@ -1,0 +1,71 @@
+
+{
+    "leftList":[
+        {
+            "href":"http://www.mi.com/compare/",
+            "data-stat-aid":"AA13424",
+            "data-log_code":"31pchomesix_small_icon001003#t=normal&act=other&page=home&bid=3030363.1&adm=2227",
+            "title":"选购手机"
+        },
+        {
+            "href":"http://qiye.mi.com/",
+            "data-stat-aid":"AA10868",
+            "data-log_code":"31pchomesix_small_icon002003#t=normal&act=other&page=home&bid=3030363.2&adm=613",
+            "title":"企业团购"
+        },
+        {
+            "href":"//order.mi.com/f",
+            "data-stat-aid":"AA17703",
+            "data-log_code":"31pchomesix_small_icon003003#t=normal&act=other&page=home&bid=3030363.3&adm=616",
+            "title":"F码通道"
+        },
+        {
+            "href":"https://www.mi.com/mimobile/",
+            "data-stat-aid":"AA11244",
+            "data-log_code":"31pchomesix_small_icon004003#t=normal&act=other&page=home&bid=3030363.4&adm=862",
+            "title":"米粉卡"
+        },
+        {
+            "href":"//huanxin.mi.com",
+            "data-stat-aid":"AA12084",
+            "data-log_code":"31pchomesix_small_icon005003#t=normal&act=other&page=home&bid=3030363.5&adm=1386",
+            "title":"以旧换新"
+        },
+        {
+            "href":"http://recharge.10046.mi.com/",
+            "data-stat-aid":"AA10871",
+            "data-log_code":"31pchomesix_small_icon006003#t=normal&act=other&page=home&bid=3030363.6&adm=617",
+            "title":"话费充值"
+        }
+    ],
+    "rightList":[
+        {
+            "href":"/building",
+            "data-stat-aid":"AA20986",
+            "data-stat-pid":"2_16_1_77",
+            "data-log_code":"31pchomethree_line001002#t=normal&act=other&page=home&bid=3030336.1&adm=5596",
+            "img":"/images/main/homeChannel/xmad_15381015124677_QcEGp.jpg",
+            "imgHd":"/images/main/homeChannel/xmad_15381015157577_Xqwkx.jpg 2x",
+            "title":"青春版 小焦点"
+        },
+        {
+            "href":"/building",
+            "data-stat-aid":"AA20873",
+            "data-stat-pid":"2_16_2_78",
+            "data-log_code":"31pchomethree_line002002#t=normal&act=other&page=home&bid=3030336.2&adm=5506",
+            "img":"/images/main/homeChannel/xmad_15410029988871_TdzPQ.jpg",
+            "imgHd":"/images/main/homeChannel/xmad_15410030018854_yBESF.jpg 2x",
+            "title":"红米6 常态"
+        },
+        {
+            "href":"/building",
+            "data-stat-aid":"AA21089",
+            "data-stat-pid":"2_16_3_79",
+            "data-log_code":"31pchomethree_line003002#t=normal&act=other&page=home&bid=3030336.3&adm=5663",
+            "img":"/images/main/homeChannel/xmad_15410599445473_Ivjsb.jpg",
+            "imgHd":"/images/main/homeChannel/xmad_15410599481599_tPFSB.jpg 2x",
+            "title":"小米手环 3 NFC"
+        }
+    ]
+}
+

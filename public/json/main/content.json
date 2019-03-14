@@ -1,0 +1,36 @@
+
+{
+    "book":{
+        "title":"图书",
+        "style":"orange",
+        "image":"/images/main/content/more-duokan.jpg",
+        "url":"/building",
+        "desc":"海量好书，享受精品阅读时光。漂亮的中文排版，千万读者选择！",
+        "text":"多看阅读"
+    },
+    "theme":{
+        "title":"MIUI 主题",
+        "style":"green",
+        "image":"/images/main/content/more-miui.jpg",
+        "url":"/building",
+        "desc":"众多个性主题、百变锁屏与自由桌面。让你的手机与众不同！",
+        "text":"MIUI主题市场"
+    },
+    "game":{
+        "title":"游戏",
+        "style":"red",
+        "image":"/images/main/content/more-game.jpg",
+        "url":"/building",
+        "desc":"免费下载海量的手机游戏。天天都有现金福利赠送",
+        "text":"小米游戏商店"
+    },
+    "app":{
+        "title":"应用",
+        "style":"blue",
+        "image":"/images/main/content/more-app.jpg",
+        "url":"/building",
+        "desc":"帮助小米手机和其他安卓手机用户。发现好用的安卓应用",
+        "text":"小米应用商店"
+    }
+}
+

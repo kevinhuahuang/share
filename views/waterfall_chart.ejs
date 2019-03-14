@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:width="http://www.w3.org/1999/xhtml" xmlns:top="http://www.w3.org/1999/xhtml">
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/waterfall_chart.css' />
+    <script type="text/javascript" src="./javascripts/waterfall_chart.js"></script>
+</head>
+<body onload="initMainPage()">
+
+<div id="main_curtain" >
+    <div id="tool_curtain" style="position:absolute; top:5px; left:20px; width:1500px; height: 30px">
+        <!--<div id="code_list_counts" class="code_list_counts">-->
+            <!--<span  id="code_list_number" class="code_list_number">800</span>-->
+        <!--</div>-->
+        <button id="button_scatter_main" style="position:absolute; top:15px; left:30px">返回主页</button>
+        <button id="button_scatter_table" style="position:absolute; top:15px; left:120px">数据表格</button>
+        <button id="button_scatter_kline" style="position:absolute; top:15px; left:230px">数据K线图</button>
+        <button id="button_scatter_declare" style="position:absolute; top:15px; left:450px">操作说明</button>
+    </div>
+    <div id="data_curtain" class="data_curtain">
+        <%for(var i=1;i<9;i++){ %>
+        <div id=<%="scatter_curtain" + i%> class="scatter_curtain" style="position:absolute; top:60px; left:5px;">
+            <label id=<%="label_gap" + i%> class="scatter_label" style="position:absolute; top:3px; left:10px">GAP
+                <select id=<%="gap_select" + i%> class="scatter_selector"></select>
+            </label>
+            <label id=<%="label_min" + i%> class="scatter_label" style="position:absolute; top:3px;left:120px">MIN
+                <select id=<%="min_select" + i%> class="scatter_selector"></select>
+            </label>
+            <label id=<%="label_x" + i%> class="scatter_label" style="position:absolute; top:3px; left:300px">X:
+                <select id=<%="x_selector"+i%> class="scatter_selector"></select>
+            </label>
+            <label id=<%="label_y" + i%> class="scatter_label"  style="position:absolute; top:3px; left:450px">Y:
+                <select id=<%="y_selector"+i%> class="scatter_selector"></select>
+            </label>
+            <label id=<%="label_condition" + i%> class="scatter_label"  style="position:absolute; top:30px; left:10px">Condition
+                <select id=<%="condition_select"+i%> class="scatter_selector"></select>
+            </label>
+            <label id=<%="label_content" + i%> class="scatter_label" style="position:absolute; top:30px; left:230px;">Content
+                <input type="text" id=<%="content_input" +i%> class="scatter_content" value="-80,-70,-60,-40">
+            </label>
+            <button id=<%="query_scatter_data" + i%> class="scatter_button" style="position:absolute; top:32px; left:520px;">确定</button>
+            <div id=<%="scatter_chart" + i%> class="scatter_chart" style="position:absolute; top:70px; left:5px;"></div>
+        </div>
+        <% } %>
+    </div>
+
+
+</div>
+
+</body>
+</html>

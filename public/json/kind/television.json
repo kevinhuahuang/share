@@ -9,11 +9,11 @@
             "block_id":"3392862",
             "body":{
                 "bg_img_color":"#FFFFFF",
-                "bg_img_webp":"/building",
-                "bg_img":"/building",
+                "bg_img_webp":"/images/kind/television/d47c6d0bdc7428e58eaa8a966240e85c.jpg",
+                "bg_img":"/images/kind/television/d47c6d0bdc7428e58eaa8a966240e85c.jpg",
                 "logo_img_color":"#FFFFFF",
-                "logo_img_webp":"/building",
-                "logo_img":"/building",
+                "logo_img_webp":"/images/kind/television/93bafaa5fb8f322cbc8f65cb287720ee.png",
+                "logo_img":"/images/kind/television/93bafaa5fb8f322cbc8f65cb287720ee.png",
                 "action":{
                     "type":"url",
                     "login":false,
@@ -31,7 +31,7 @@
                             "path":"https://www.mi.com/",
                             "log_code":"318043pcactivityhead_screen001002#t=normal&act=webview&page=activity&page_id=8043&bid=3392862.1"
                         },
-                        "pc_url":"https://www.mi.com/"
+                        "pc_url":"/building"
                     }
                 ]
             }
@@ -58,8 +58,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001003#t=normal&act=other&page=activity&page_id=8043&bid=3390049.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/f6e5bedf56eeb3237aaddd76e100bb38.jpg",
+                        "img_url_webp":"/images/kind/television/f6e5bedf56eeb3237aaddd76e100bb38.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -79,8 +79,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/0d6e8c8aead10b2691cea748c84af194.jpg",
+                        "img_url_webp":"/images/kind/television/e202a80e-ef94-b65d-08f1-6fb94e18661c.webp",
                         "img_url_color":"#B8BBB7",
                         "product_id":"6850",
                         "product_rebate":{
@@ -103,12 +103,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001004#t=product&act=other&page=activity&page_id=8043&bid=3390050.1&pid=6850"
                         },
-                        "pc_url":"//item.mi.com/product/6850.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/5f7afe654efeca5b8b1b6323371586ba.jpg",
+                        "img_url_webp":"/images/kind/television/9c0c6861-66e1-ccbe-f7e9-400ef206cdb5.webp",
                         "img_url_color":"#D2AE9A",
                         "product_id":"6222",
                         "product_rebate":{
@@ -131,7 +131,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002004#t=product&act=other&page=activity&page_id=8043&bid=3390050.2&pid=6222"
                         },
-                        "pc_url":"//item.mi.com/product/6222.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -148,8 +148,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/ea304d110a1b1a902c2f938f1f9f7bfa.jpg",
+                        "img_url_webp":"/images/kind/television/2f00c194-73db-fc38-704c-cb1cf524fced.webp",
                         "img_url_color":"#BDA586",
                         "product_id":"8911",
                         "product_rebate":{
@@ -172,12 +172,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001005#t=product&act=other&page=activity&page_id=8043&bid=3390052.1&pid=8911"
                         },
-                        "pc_url":"//item.mi.com/product/8911.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/58228f31478d9e6a1bbb8dba02c61561.jpg",
+                        "img_url_webp":"/images/kind/television/58228f31478d9e6a1bbb8dba02c61561.jpg",
                         "img_url_color":"#FFFFFF",
                         "product_id":"7575",
                         "product_rebate":{
@@ -200,7 +200,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002005#t=product&act=other&page=activity&page_id=8043&bid=3390052.2&pid=7575"
                         },
-                        "pc_url":"//item.mi.com/product/7575.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -217,8 +217,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/0feba857062316b4b116866c8ccf762c.jpg",
+                        "img_url_webp":"/images/kind/television/5cbbea36-3ae0-9b68-3fb0-b250438cff28.webp",
                         "img_url_color":"#9097C9",
                         "product_id":"8111",
                         "product_rebate":{
@@ -241,12 +241,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001006#t=product&act=other&page=activity&page_id=8043&bid=3390051.1&pid=8111"
                         },
-                        "pc_url":"//item.mi.com/product/8111.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/f498b42f19e289d33a7ff09915e72d5d.jpg",
+                        "img_url_webp":"/images/kind/television/c7406603-00ac-0537-05e1-2036f9cff9ea.webp",
                         "img_url_color":"#BAB7C4",
                         "product_id":"7911",
                         "product_rebate":{
@@ -269,7 +269,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002006#t=product&act=other&page=activity&page_id=8043&bid=3390051.2&pid=7911"
                         },
-                        "pc_url":"//item.mi.com/product/7911.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -286,8 +286,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/cbaba82b2dea90db0f5b01ed994fc119.jpg",
+                        "img_url_webp":"/images/kind/television/fb373617-a32b-a183-edfe-549a615d0597.webp",
                         "img_url_color":"#A997A3",
                         "product_id":"8909",
                         "product_rebate":{
@@ -310,12 +310,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001007#t=product&act=other&page=activity&page_id=8043&bid=3390053.1&pid=8909"
                         },
-                        "pc_url":"//item.mi.com/product/8909.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/5c50bdc81439be902db6e34a89b785b9.jpg",
+                        "img_url_webp":"/images/kind/television/78833a9e-83a4-a3bb-211d-d386e08c18e6.webp",
                         "img_url_color":"#787878",
                         "product_id":"5353",
                         "product_rebate":{
@@ -338,7 +338,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002007#t=product&act=other&page=activity&page_id=8043&bid=3390053.2&pid=5353"
                         },
-                        "pc_url":"//item.mi.com/product/5353.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -366,8 +366,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001008#t=normal&act=other&page=activity&page_id=8043&bid=3390054.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/72111349f77ecab3bcdf643246bd3317.jpg",
+                        "img_url_webp":"/images/kind/television/72111349f77ecab3bcdf643246bd3317.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -387,8 +387,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/4281666ebac1a3c55710ae145421c6b7.jpg",
+                        "img_url_webp":"/images/kind/television/d5459fab-6faa-9eda-b5d7-4531c22a5789.webp",
                         "img_url_color":"#CFB0AB",
                         "product_id":"8600",
                         "product_rebate":[
@@ -406,7 +406,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_one001009#t=product&act=other&page=activity&page_id=8043&bid=3390055.1&pid=8600"
                         },
-                        "pc_url":"//item.mi.com/1182800023.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -423,8 +423,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/4e45459576b48678140b67e306bc0dd8.jpg",
+                        "img_url_webp":"/images/kind/television/a2f3de39-1616-3e20-f27a-386c196a6b32.webp",
                         "img_url_color":"#A9B1C5",
                         "product_id":"8601",
                         "product_rebate":[
@@ -442,12 +442,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001010#t=product&act=other&page=activity&page_id=8043&bid=3390056.1&pid=8601"
                         },
-                        "pc_url":"//item.mi.com/1182800024.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/078b19baa98e6907661d9691ba84f18d.jpg",
+                        "img_url_webp":"/images/kind/television/ad37c1b2-ab11-4413-c485-666b37644669.webp",
                         "img_url_color":"#89A0BF",
                         "product_id":"9105",
                         "product_rebate":[
@@ -465,7 +465,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002010#t=product&act=other&page=activity&page_id=8043&bid=3390056.2&pid=9105"
                         },
-                        "pc_url":"//item.mi.com/1184700003.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -482,8 +482,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/8b45c1765511251084af7fe9a94d5c16.jpg",
+                        "img_url_webp":"/images/kind/television/42020e78-bfbb-0a15-aec6-6efb053a073f.webp",
                         "img_url_color":"#B38F88",
                         "product_id":"7913",
                         "product_rebate":[
@@ -501,12 +501,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001011#t=product&act=other&page=activity&page_id=8043&bid=3390057.1&pid=7913"
                         },
-                        "pc_url":"//item.mi.com/1181600014.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/9fda35f772f0c2d1e475b18d46fd84eb.jpg",
+                        "img_url_webp":"/images/kind/television/0d67f4c1-bda7-6be2-117f-f777d3cb8ef3.webp",
                         "img_url_color":"#B18981",
                         "product_id":"7095",
                         "product_rebate":{
@@ -529,7 +529,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002011#t=product&act=other&page=activity&page_id=8043&bid=3390057.2&pid=7095"
                         },
-                        "pc_url":"//item.mi.com/product/7095.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -546,8 +546,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/899c83aa77b931e012828c3b0f8e01e2.jpg",
+                        "img_url_webp":"/images/kind/television/6bb3b743-feb6-244d-22ae-9ce3b0e8d76d.webp",
                         "img_url_color":"#BDC2D2",
                         "product_id":"8599",
                         "product_rebate":[
@@ -565,12 +565,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001012#t=product&act=other&page=activity&page_id=8043&bid=3390058.1&pid=8599"
                         },
-                        "pc_url":"//item.mi.com/1182800022.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/0338143174a5dfdf451f52fce2cd7d1f.jpg",
+                        "img_url_webp":"/images/kind/television/3198239d-e64f-b158-5675-7d30c96e8cae.webp",
                         "img_url_color":"#9CA8C3",
                         "product_id":"6634",
                         "product_rebate":{
@@ -593,7 +593,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002012#t=product&act=other&page=activity&page_id=8043&bid=3390058.2&pid=6634"
                         },
-                        "pc_url":"//item.mi.com/product/6634.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -621,8 +621,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001013#t=normal&act=other&page=activity&page_id=8043&bid=3390059.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/f1d79ed122fe7be1554e2ee68a3f6210.jpg",
+                        "img_url_webp":"/images/kind/television/f1d79ed122fe7be1554e2ee68a3f6210.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -642,8 +642,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/23dc96365733e71d75ccd6382583e56a.jpg",
+                        "img_url_webp":"/images/kind/television/c73ad22f-9ca1-abc5-c3b9-71920a9c1964.webp",
                         "img_url_color":"#7E7574",
                         "product_id":"7575",
                         "product_rebate":{
@@ -666,7 +666,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_one001014#t=product&act=other&page=activity&page_id=8043&bid=3390060.1&pid=7575"
                         },
-                        "pc_url":"//item.mi.com/product/7575.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -683,8 +683,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/cf0de58aa44e751488bb7cf7ac700cb3.jpg",
+                        "img_url_webp":"/images/kind/television/e35a3895-3590-54f2-6434-f644e0aad05f.webp",
                         "img_url_color":"#C3B7BB",
                         "product_id":"8912",
                         "product_rebate":{
@@ -707,12 +707,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001015#t=product&act=other&page=activity&page_id=8043&bid=3390061.1&pid=8912"
                         },
-                        "pc_url":"//item.mi.com/product/8912.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/5f7afe654efeca5b8b1b6323371586ba.jpg",
+                        "img_url_webp":"/images/kind/television/9c0c6861-66e1-ccbe-f7e9-400ef206cdb5.webp",
                         "img_url_color":"#D2AE9A",
                         "product_id":"6222",
                         "product_rebate":{
@@ -735,7 +735,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002015#t=product&act=other&page=activity&page_id=8043&bid=3390061.2&pid=6222"
                         },
-                        "pc_url":"//item.mi.com/product/6222.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -752,8 +752,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/0338143174a5dfdf451f52fce2cd7d1f.jpg",
+                        "img_url_webp":"/images/kind/television/3198239d-e64f-b158-5675-7d30c96e8cae.webp",
                         "img_url_color":"#9CA8C3",
                         "product_id":"6634",
                         "product_rebate":{
@@ -776,12 +776,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001016#t=product&act=other&page=activity&page_id=8043&bid=3390062.1&pid=6634"
                         },
-                        "pc_url":"//item.mi.com/product/6634.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/0feba857062316b4b116866c8ccf762c.jpg",
+                        "img_url_webp":"/images/kind/television/5cbbea36-3ae0-9b68-3fb0-b250438cff28.webp",
                         "img_url_color":"#9097C9",
                         "product_id":"8111",
                         "product_rebate":{
@@ -804,7 +804,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002016#t=product&act=other&page=activity&page_id=8043&bid=3390062.2&pid=8111"
                         },
-                        "pc_url":"//item.mi.com/product/8111.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -821,8 +821,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/ea304d110a1b1a902c2f938f1f9f7bfa.jpg",
+                        "img_url_webp":"/images/kind/television/2f00c194-73db-fc38-704c-cb1cf524fced.webp",
                         "img_url_color":"#BDA586",
                         "product_id":"8911",
                         "product_rebate":{
@@ -845,12 +845,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001017#t=product&act=other&page=activity&page_id=8043&bid=3390063.1&pid=8911"
                         },
-                        "pc_url":"//item.mi.com/product/8911.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/5c50bdc81439be902db6e34a89b785b9.jpg",
+                        "img_url_webp":"/images/kind/television/78833a9e-83a4-a3bb-211d-d386e08c18e6.webp",
                         "img_url_color":"#787878",
                         "product_id":"5353",
                         "product_rebate":{
@@ -873,7 +873,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002017#t=product&act=other&page=activity&page_id=8043&bid=3390063.2&pid=5353"
                         },
-                        "pc_url":"//item.mi.com/product/5353.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -890,8 +890,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/ef9215dda3d8a4c2c81293f78eaa0ebf.jpg",
+                        "img_url_webp":"/images/kind/television/3ebddd97-80d9-608c-d1f9-ccaefb600143.webp",
                         "img_url_color":"#B3CAD8",
                         "product_id":"6633",
                         "product_rebate":{
@@ -914,12 +914,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001018#t=product&act=other&page=activity&page_id=8043&bid=3390064.1&pid=6633"
                         },
-                        "pc_url":"//item.mi.com/product/6633.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/f498b42f19e289d33a7ff09915e72d5d.jpg",
+                        "img_url_webp":"/images/kind/television/c7406603-00ac-0537-05e1-2036f9cff9ea.webp",
                         "img_url_color":"#BAB7C4",
                         "product_id":"7911",
                         "product_rebate":{
@@ -942,7 +942,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002018#t=product&act=other&page=activity&page_id=8043&bid=3390064.2&pid=7911"
                         },
-                        "pc_url":"//item.mi.com/product/7911.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -970,8 +970,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001019#t=normal&act=other&page=activity&page_id=8043&bid=3390065.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/502d2aa3f25c6b0b5459fc1cd46ae8ec.jpg",
+                        "img_url_webp":"/images/kind/television/502d2aa3f25c6b0b5459fc1cd46ae8ec.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -991,8 +991,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/4f4d7dd6106054facaba89701812d6b1.jpg",
+                        "img_url_webp":"/images/kind/television/61221066-dfa5-a806-769c-3a64ae2793af.webp",
                         "img_url_color":"#B8BBB7",
                         "product_id":"6850",
                         "product_rebate":{
@@ -1015,7 +1015,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_one001020#t=product&act=other&page=activity&page_id=8043&bid=3390066.1&pid=6850"
                         },
-                        "pc_url":"//item.mi.com/product/6850.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1032,8 +1032,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/cbaba82b2dea90db0f5b01ed994fc119.jpg",
+                        "img_url_webp":"/images/kind/television/fb373617-a32b-a183-edfe-549a615d0597.webp",
                         "img_url_color":"#A997A3",
                         "product_id":"8909",
                         "product_rebate":{
@@ -1056,12 +1056,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001021#t=product&act=other&page=activity&page_id=8043&bid=3390067.1&pid=8909"
                         },
-                        "pc_url":"//item.mi.com/product/8909.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/b476329b3b26a6ac8e13e00ac68e623d.jpg",
+                        "img_url_webp":"/images/kind/television/1b8a4cfe-4068-0b16-9981-8c0811775b35.webp",
                         "img_url_color":"#BA8D7F",
                         "product_id":"7795",
                         "product_rebate":{
@@ -1084,7 +1084,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002021#t=product&act=other&page=activity&page_id=8043&bid=3390067.2&pid=7795"
                         },
-                        "pc_url":"//item.mi.com/product/7795.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1101,8 +1101,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/987f89981e55c3a621ad3cbc33fce2b7.jpg",
+                        "img_url_webp":"/images/kind/television/c07547fd-aa40-2a32-0710-c6cdad83dc0b.webp",
                         "img_url_color":"#ACA0AF",
                         "product_id":"8041",
                         "product_rebate":{
@@ -1125,12 +1125,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001022#t=product&act=other&page=activity&page_id=8043&bid=3390068.1&pid=8041"
                         },
-                        "pc_url":"//item.mi.com/product/8041.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/5f94baf32ad3492c9339162541f18803.jpg",
+                        "img_url_webp":"/images/kind/television/d8c72565-5ff9-3740-69a9-edc1bccb7729.webp",
                         "img_url_color":"#B6C2C0",
                         "product_id":"6628",
                         "product_rebate":{
@@ -1153,7 +1153,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002022#t=product&act=other&page=activity&page_id=8043&bid=3390068.2&pid=6628"
                         },
-                        "pc_url":"//item.mi.com/product/6628.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1181,8 +1181,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001023#t=normal&act=other&page=activity&page_id=8043&bid=3390069.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/aaeb6a9f6942e5de361c61b6386f25ad.jpg",
+                        "img_url_webp":"/images/kind/television/aaeb6a9f6942e5de361c61b6386f25ad.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -1202,8 +1202,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/bb88f550e5b553baacce597c8846a8e8.jpg",
+                        "img_url_webp":"/images/kind/television/bb88f550e5b553baacce597c8846a8e8.jpg",
                         "img_url_color":"#FFFFFF",
                         "product_id":"7410",
                         "product_rebate":[
@@ -1221,12 +1221,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001024#t=product&act=other&page=activity&page_id=8043&bid=3390070.1&pid=7410"
                         },
-                        "pc_url":"//item.mi.com/product/7410.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/e9ea9ffd7f09449b8c5afd44f2fe6af6.jpg",
+                        "img_url_webp":"/images/kind/television/08dd17ea-a6f9-b57e-c1bb-a11f7efddac3.webp",
                         "img_url_color":"#8F9596",
                         "product_id":"6847",
                         "product_rebate":{
@@ -1249,7 +1249,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002024#t=product&act=other&page=activity&page_id=8043&bid=3390070.2&pid=6847"
                         },
-                        "pc_url":"//item.mi.com/product/6847.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1277,8 +1277,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001025#t=normal&act=other&page=activity&page_id=8043&bid=3390071.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/132c9c3570279219ec4bff2d1503712b.jpg",
+                        "img_url_webp":"/images/kind/television/132c9c3570279219ec4bff2d1503712b.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -1298,8 +1298,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/a595bcf0396aa72c81d53c278acdf9e0.jpg",
+                        "img_url_webp":"/images/kind/television/a64131e5-b3ae-deed-22da-abf8fe20bb95.webp",
                         "img_url_color":"#9EA8B8",
                         "product_id":"7809",
                         "product_rebate":{
@@ -1322,12 +1322,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001026#t=product&act=other&page=activity&page_id=8043&bid=3390072.1&pid=7809"
                         },
-                        "pc_url":"//item.mi.com/product/7809.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/d83dac0c3ecceefc9b33caf7c41f4c70.jpg",
+                        "img_url_webp":"/images/kind/television/6b242f60-986a-056b-3442-4c9bb805232f.webp",
                         "img_url_color":"#75A7AA",
                         "product_id":"8037",
                         "product_rebate":{
@@ -1350,7 +1350,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002026#t=product&act=other&page=activity&page_id=8043&bid=3390072.2&pid=8037"
                         },
-                        "pc_url":"//item.mi.com/product/8037.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1367,8 +1367,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/c112ec477d6bff93eed4cd5f833d1b14.jpg",
+                        "img_url_webp":"/images/kind/television/50b07ea3-4701-b8cf-2605-a56429891832.webp",
                         "img_url_color":"#96A4A5",
                         "product_id":"8907",
                         "product_rebate":{
@@ -1391,12 +1391,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001027#t=product&act=other&page=activity&page_id=8043&bid=3390073.1&pid=8907"
                         },
-                        "pc_url":"//item.mi.com/product/8907.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/5939acb85bbc334297d1b0dfd832ca42.jpg",
+                        "img_url_webp":"/images/kind/television/1ff50c0f-911a-3d59-1ce7-82d972e6d69d.webp",
                         "img_url_color":"#B1877A",
                         "product_id":"8908",
                         "product_rebate":{
@@ -1419,7 +1419,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002027#t=product&act=other&page=activity&page_id=8043&bid=3390073.2&pid=8908"
                         },
-                        "pc_url":"//item.mi.com/product/8908.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1436,8 +1436,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/e79f24bc485549815d418488dcf0338c.jpg",
+                        "img_url_webp":"/images/kind/television/6309f024-2d23-2d35-bf84-0ae41b0277f2.webp",
                         "img_url_color":"#D0ADB1",
                         "product_id":"8993",
                         "product_rebate":[
@@ -1455,12 +1455,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001028#t=product&act=other&page=activity&page_id=8043&bid=3390074.1&pid=8993"
                         },
-                        "pc_url":"//item.mi.com/product/8993.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/b488525b46aabf472d2282a2b858275d.jpg",
+                        "img_url_webp":"/images/kind/television/b488525b46aabf472d2282a2b858275d.jpg",
                         "img_url_color":"#FFFFFF",
                         "product_id":"8038",
                         "product_rebate":{
@@ -1483,7 +1483,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002028#t=product&act=other&page=activity&page_id=8043&bid=3390074.2&pid=8038"
                         },
-                        "pc_url":"//item.mi.com/product/8038.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1500,8 +1500,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/e0ec10b41c8db9bf7f7336915de7e618.jpg",
+                        "img_url_webp":"/images/kind/television/1c98326c-de2b-ee1e-6f8b-7e195bc94473.webp",
                         "img_url_color":"#A69CA1",
                         "product_id":"7807",
                         "product_rebate":{
@@ -1524,12 +1524,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001029#t=product&act=other&page=activity&page_id=8043&bid=3390075.1&pid=7807"
                         },
-                        "pc_url":"//item.mi.com/product/7807.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/590229e49f9af1fcc3c31f0700f31cce.jpg",
+                        "img_url_webp":"/images/kind/television/93748322-3c31-1053-68fa-22a09fdb66c7.webp",
                         "img_url_color":"#9DA0B3",
                         "product_id":"8039",
                         "product_rebate":{
@@ -1552,7 +1552,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002029#t=product&act=other&page=activity&page_id=8043&bid=3390075.2&pid=8039"
                         },
-                        "pc_url":"//item.mi.com/product/8039.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1580,8 +1580,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001030#t=normal&act=other&page=activity&page_id=8043&bid=3390076.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/b75078ba44655e428cfe6ef33e900890.jpg",
+                        "img_url_webp":"/images/kind/television/b75078ba44655e428cfe6ef33e900890.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -1601,8 +1601,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/eccf1afc282731ddf579f8ebe1446cd6.jpg",
+                        "img_url_webp":"/images/kind/television/eccf1afc282731ddf579f8ebe1446cd6.jpg",
                         "img_url_color":"#FFFFFF",
                         "product_id":"7095",
                         "product_rebate":{
@@ -1625,7 +1625,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_one001031#t=product&act=other&page=activity&page_id=8043&bid=3390090.1&pid=7095"
                         },
-                        "pc_url":"//item.mi.com/product/7095.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1642,8 +1642,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/8329ca72a6563a00fea923d70a309d58.jpg",
+                        "img_url_webp":"/images/kind/television/653a367c-e292-d83e-65ea-49940cc7144a.webp",
                         "img_url_color":"#848EB7",
                         "product_id":"8990",
                         "product_rebate":[
@@ -1661,12 +1661,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001032#t=product&act=other&page=activity&page_id=8043&bid=3390078.1&pid=8990"
                         },
-                        "pc_url":"//item.mi.com/product/8990.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/bdafe29bfa557faa7944c175a06947d7.jpg",
+                        "img_url_webp":"/images/kind/television/a9617766-c947-8ec5-977e-9a55582671c2.webp",
                         "img_url_color":"#9C96BD",
                         "product_id":"7799",
                         "product_rebate":{
@@ -1689,7 +1689,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002032#t=product&act=other&page=activity&page_id=8043&bid=3390078.2&pid=7799"
                         },
-                        "pc_url":"//item.mi.com/product/7799.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1717,8 +1717,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001033#t=normal&act=other&page=activity&page_id=8043&bid=3390079.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/d1bb098ee811d50906189db6e9e2abff.jpg",
+                        "img_url_webp":"/images/kind/television/d1bb098ee811d50906189db6e9e2abff.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -1738,8 +1738,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/b835d4612f808bc8d1c71f41456c3dea.jpg",
+                        "img_url_webp":"/images/kind/television/cf153235-1cdf-69bb-24ce-b6c0b49510f2.webp",
                         "img_url_color":"#E4E2E5",
                         "product_id":"5990",
                         "product_rebate":{
@@ -1759,7 +1759,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_one001034#t=product&act=other&page=activity&page_id=8043&bid=3390077.1&pid=5990"
                         },
-                        "pc_url":"//item.mi.com/product/5990.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1776,8 +1776,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/40ab922f46366b0a7a7d33fa29dab1bd.jpg",
+                        "img_url_webp":"/images/kind/television/4c2796dc-b3ed-c8cb-b704-a5c14715a05f.webp",
                         "img_url_color":"#E2C3BC",
                         "product_id":"7599",
                         "product_rebate":{
@@ -1797,12 +1797,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001035#t=product&act=other&page=activity&page_id=8043&bid=3390080.1&pid=7599"
                         },
-                        "pc_url":"//item.mi.com/product/7599.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/9fc17d615d6bd9adf3a9066c2bb7160f.jpg",
+                        "img_url_webp":"/images/kind/television/f2b7aad9-4751-1e1d-5be5-50cd85c03403.webp",
                         "img_url_color":"#262627",
                         "product_id":"7598",
                         "product_rebate":{
@@ -1822,7 +1822,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002035#t=product&act=other&page=activity&page_id=8043&bid=3390080.2&pid=7598"
                         },
-                        "pc_url":"//item.mi.com/product/7598.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1850,8 +1850,8 @@
                             "path":"",
                             "log_code":"318043pcactivitycells_auto_fill001036#t=normal&act=other&page=activity&page_id=8043&bid=3390082.1"
                         },
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/c81c500aaa9d692eeaf06f835c0c4e19.jpg",
+                        "img_url_webp":"/images/kind/television/c81c500aaa9d692eeaf06f835c0c4e19.jpg",
                         "img_url_color":"",
                         "pc_url":""
                     }
@@ -1871,8 +1871,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/8af61ab0dc013f28e2894ae918eae93e.jpg",
+                        "img_url_webp":"/images/kind/television/765480a4-f251-d8d0-896d-edc377243e9f.webp",
                         "img_url_color":"#ECECED",
                         "product_id":"7808",
                         "product_rebate":[
@@ -1890,7 +1890,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_one001037#t=product&act=other&page=activity&page_id=8043&bid=3390083.1&pid=7808"
                         },
-                        "pc_url":"//item.mi.com/product/7808.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]
@@ -1907,8 +1907,8 @@
                 "btn_color":"#ea625b",
                 "items":[
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/b617d07a6f34391b720b5785f276abba.jpg",
+                        "img_url_webp":"/images/kind/television/17fc88e8-c5bf-830a-f79e-3a6e101fbad0.webp",
                         "img_url_color":"#A2CAE2",
                         "product_id":"8582",
                         "product_rebate":[
@@ -1926,12 +1926,12 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two001038#t=product&act=other&page=activity&page_id=8043&bid=3390084.1&pid=8582"
                         },
-                        "pc_url":"//item.mi.com/1182700039.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     },
                     {
-                        "img_url":"/building",
-                        "img_url_webp":"/building",
+                        "img_url":"/images/kind/television/d272d85c73a851b4721ec1f48e0583f2.jpg",
+                        "img_url_webp":"/images/kind/television/6a3870ca-0a81-33b8-80ba-6d5b281f71f6.webp",
                         "img_url_color":"#E7E4E4",
                         "product_id":"8581",
                         "product_rebate":[
@@ -1949,7 +1949,7 @@
                             "login":false,
                             "log_code":"318043pcactivityproduction_list_two002038#t=product&act=other&page=activity&page_id=8043&bid=3390084.2&pid=8581"
                         },
-                        "pc_url":"//item.mi.com/1182700038.html",
+                        "pc_url":"/building",
                         "btntxt":"立即购买"
                     }
                 ]

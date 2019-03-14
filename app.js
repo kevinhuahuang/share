@@ -50,7 +50,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', main);
+app.use('/', guide);
 app.use('/users', users);
 app.use('/home', home);
 app.use('/instruction', instruction);

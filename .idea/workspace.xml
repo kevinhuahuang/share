@@ -55,32 +55,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="millet.js" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/routes/millet.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="95">
-                    <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="152">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -94,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.474926442b5c8ed91d6f.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.474926442b5c8ed91d6f.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/js/main.474926442b5c8ed91d6f.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret column="23679" selection-start-column="23679" selection-end-column="23679" />
+            <state relative-caret-position="76">
+              <caret column="22569" selection-start-column="22569" selection-end-column="22569" />
             </state>
           </provider>
         </entry>
@@ -146,9 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>option_item</find>
-      <find>share</find>
-      <find>fetchDailyData</find>
       <find>.csv</find>
       <find>.get</find>
       <find>http</find>
@@ -163,7 +141,6 @@
       <find>http://www.mi.com/</find>
       <find>topBa</find>
       <find>//www.mi.com/index.html</find>
-      <find>href:&quot;//www.mi.com/index.html&quot;</find>
       <find>href:&quot;https://www.miui.com/&quot;</find>
       <find>href:&quot;millet&quot;</find>
       <find>{attrs:{href:&quot;/millet&quot;,target:&quot;_blank&quot;}},[t._v(&quot;MIUI&quot;)])</find>
@@ -176,6 +153,10 @@
       <find>{href:&quot;https://account.xiaomi.com/pass/register&quot;}}</find>
       <find>{href:&quot;//order.mi.com/site/login&quot;}}</find>
       <find>{href:&quot;https://iot.mi.com/index.html&quot;}}</find>
+      <find>返回小米商城</find>
+      <find>href:&quot;//www.mi.com/index.html&quot;</find>
+      <find>contentData</find>
+      <find>/topBar</find>
     </findStrings>
     <replaceStrings>
       <replace>scatter_echart</replace>
@@ -204,10 +185,10 @@
       <replace>others</replace>
       <replace>send</replace>
       <replace>json</replace>
-      <replace>href:&quot;/millet&quot;</replace>
       <replace>{attrs:{href:&quot;/building&quot;,target:&quot;_blank&quot;}},[t._v(&quot;MIUI&quot;)])</replace>
       <replace>{href:&quot;/building&quot;,target:&quot;_blank&quot;}}</replace>
       <replace>{href:&quot;/building&quot;}}</replace>
+      <replace>href:&quot;/millet&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\workspace\share\views</dir>
@@ -269,8 +250,8 @@
         <option value="$PROJECT_DIR$/lib/calculate_share_data/share_close_max_min.js" />
         <option value="$PROJECT_DIR$/routes/building.js" />
         <option value="$PROJECT_DIR$/routes/main.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/assets/js/main.474926442b5c8ed91d6f.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -294,8 +275,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="30" />
+    <option name="x" value="301" />
+    <option name="y" value="28" />
     <option name="width" value="1561" />
     <option name="height" value="981" />
   </component>
@@ -591,7 +572,7 @@
       <workItem from="1552008483589" duration="7089000" />
       <workItem from="1552289304687" duration="1095000" />
       <workItem from="1552371971680" duration="2046000" />
-      <workItem from="1552466138224" duration="6922000" />
+      <workItem from="1552466138224" duration="8556000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1521184660119</created>
@@ -611,7 +592,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1127700000" />
+    <option name="totallyTimeSpent" value="1129334000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,7 +604,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="387" y="30" width="1561" height="981" extended-state="0" />
+    <frame x="301" y="28" width="1561" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20026264" />
@@ -937,13 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/mi/kind/television.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -961,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/millet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/television.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -977,8 +944,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/main.474926442b5c8ed91d6f.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret column="23679" selection-start-column="23679" selection-end-column="23679" />
+        <state relative-caret-position="76">
+          <caret column="22569" selection-start-column="22569" selection-end-column="22569" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/millet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
         </state>
       </provider>
     </entry>

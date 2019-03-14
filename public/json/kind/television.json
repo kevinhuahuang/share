@@ -28,10 +28,10 @@
                         "action":{
                             "type":"url",
                             "login":false,
-                            "path":"https://www.mi.com/",
+                            "path":"/millet",
                             "log_code":"318043pcactivityhead_screen001002#t=normal&act=webview&page=activity&page_id=8043&bid=3392862.1"
                         },
-                        "pc_url":"/building"
+                        "pc_url":"/millet"
                     }
                 ]
             }
